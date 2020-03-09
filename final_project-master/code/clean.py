@@ -58,19 +58,24 @@ df.loc[df.season == '?', 'season'] = 'F09'
 # correct name of institutions
 df["institution"][lambda x:x.str.contains("Stanford")] = "Stanford University"
 df["institution"][lambda x:x.str.contains("Duke")] = "Duke University"
+df["institution"][lambda x:x.str.contains("Cornell")] = "Cornell University"
+df["institution"][lambda x:x.str.contains("Toronto")] = "University of Toronto"
+df["institution"][lambda x:x.str.contains("Yale")] = "Yale University"
+df["institution"][lambda x:x.str.contains("Rice")] = "Rice University"
+df["institution"][lambda x:x.str.contains("Pitt")] = "University of Pittsburgh"
 df["institution"][lambda x:x.str.contains("Berkeley") | x.str.contains(
-    "UCB")] = "University Of California, Berkeley (UCB)"
+    "UCB")] = "University of California, Berkeley (UCB)"
 df["institution"][lambda x:x.str.contains("Seattle") | x.str.contains(
-    "Of Washington")] = "University Of Washington"
+    "Of Washington")] = "University of Washington"
 df["institution"][lambda x:x.str.contains("Harvard")] = "Harvard University"
 df["institution"][lambda x:x.str.contains("CMU") | x.str.contains(
     "Carnegie") | x.str.contains("Mellon")] = "Carnegie Mellon University (CMU)"
 
 df["institution"][lambda x:x.str.contains("NCSU") | x.str.contains(
-    "Carolina State")] = "North Carolina State University (NCSU)"
+    "Carolina S")] = "North Carolina State University (NCSU)"
 
 df["institution"][lambda x:x.str.contains("UCLA") | x.str.contains(
-    "Los Angeles")] = "University Of California, Los Angeles (UCLA)"
+    "Los Angeles")] = "University of California, Los Angeles (UCLA)"
 df["institution"][lambda x: x.str.contains(
     "Davis")] = "University of California, Davis (UC Davis)"
 df["institution"][lambda x:x.str.contains(
@@ -78,7 +83,80 @@ df["institution"][lambda x:x.str.contains(
 df["institution"][lambda x:x.str.contains("OSU") | x.str.contains(
     "Ohio S")] = "Ohio State University (OSU)"
 df["institution"][lambda x:x.str.contains("UMN") | x.str.contains(
-    "nesota")] = "University Of Minnesota - Twin Cities (UMN)"
+    "nesota")] = "University of Minnesota - Twin Cities (UMN)"
 df["institution"][lambda x:x.str.contains(
     "University Purdue") | x.str.contains("IUPUI")] = "IUPUI"
-df["institution"][lambda x:x.str.contains("Purdue")]="Purdue University"
+df["institution"][lambda x:x.str.contains("Purdue")] = "Purdue University"
+df["institution"][lambda x:x.str.contains("British Columbia") | x.str.contains(
+    "UBC")] = "University of British Columbia"
+df["institution"][lambda x:x.str.contains(
+    "Missouri")] = "University of Missouri"
+df["institution"][lambda x:x.str.contains(
+    "South Carolina") | x.str.contains(
+    "Southern Carolina")] = "University of South Carolina"
+df["institution"][lambda x:(x.str.contains(
+    "North Carolina") | x.str.contains(
+    "UNC") | x.str.contains(
+    "Chapel Hill")) & np.logical_not(x.str.contains("NCSU")) & np.logical_not(x.str.contains("Charlotte"))] = "University of North Carolina, Chapel Hill"
+df["institution"][lambda x:(x.str.contains("Columbia")) & np.logical_not(
+    x.str.contains("British"))] = "Columbia University"
+
+df["institution"][lambda x:x.str.contains("Rutgers")] = "Rutgers"
+
+df["institution"][lambda x:x.str.contains("JHU") | x.str.contains(
+    "Johns") | x.str.contains("Hopkins")] = "Johns Hopkins University (JHU)"
+df["institution"][lambda x:x.str.contains("Michigan State") | x.str.contains(
+    "MSU")] = "Michigan State University (MSU)"
+df["institution"][lambda x:x.str.contains("Michigan") & np.logical_not(x.str.contains("State")) & np.logical_not(x.str.contains(
+    "Western")) & np.logical_not(x.str.contains("Central")) & np.logical_not(x.str.contains("Tech"))] = "University of Michigan, Ann Arbor"
+df["institution"][lambda x:x.str.contains("Of Chicago") | (x.isin(
+    ["Chicago", "U Chicago", "UChicago", "University Of  Chicago", "Chicago University"])) | x.str.contains("Booth")] = "University of Chicago"
+df["institution"][lambda x:x.str.contains("Florida Sta") | x.str.contains(
+    "FSU")] = "Florida State University (FSU)"
+df["institution"][lambda x:x.str.contains("Florida") & np.logical_not(x.str.contains(
+    "State")) & np.logical_not(x.str.contains("Central")) & np.logical_not(x.str.contains("South"))] = "University of Florida"
+
+df["institution"][lambda x:x.str.contains("Wisconsin") | x.str.contains(
+    "Madison") | x.str.contains("UWM")] = "University of Wisconsin-Madison"
+df["institution"][lambda x:(x.str.contains("Illin") | x.str.contains("UIUC")) & np.logical_not(x.str.contains("Chicago")) & np.logical_not(
+    x.str.contains("State")) & np.logical_not(x.str.contains("North"))] = "University of Illinois, Urbana Champaign (UIUC)"
+df["institution"][lambda x:x.str.contains("Iowa S") | x.str.contains(
+    "ISU")] = "Iowa State University (ISU)"
+df["institution"][lambda x:x.str.contains("Iowa") & np.logical_not(
+    x.str.contains('State'))] = "University of Iowa"
+
+df["institution"][lambda x:x.str.contains(
+    "Colorado St")] = "Colorado State University"
+
+df["institution"][lambda x:x.str.contains("UCSD") | x.str.contains('San Diego') & np.logical_not(
+    x.str.contains("State"))] = "University of California, San Diego (UCSD)"
+
+df["institution"][lambda x:x.str.contains("UCSB") | x.str.contains(
+    "Barbara")] = "University of California, Santa Barbara (UCSB)"
+
+df["institution"][lambda x:x.str.contains("UCI") | x.str.contains(
+    "Irvine") | x.str.contains("IRVINE")] = "University of California, Irvine (UCI)"
+
+df["institution"][lambda x:x.str.contains("UCR") | x.str.contains(
+    "Riverside")] = "University of California, Riverside (UCR)"
+
+df["institution"][lambda x:x.str.contains("Southern California") | x.str.contains(
+    "USC") | x.str.contains("South Califor")]="University of Southern California (USC)"
+
+df["institution"][lambda x:x.str.contains("Penn State") | x.str.contains(
+    "PSU") | x.str.contains("Pennsylvania State") | x.str.contains("Penn. State")] = "Pennsylvania State University (PSU)"
+
+df["institution"][lambda x:x.str.contains("Penn") & np.logical_not(
+    x.str.contains("PSU"))] = "University Of Pennsylvania (UPenn)"
+
+df["institution"][lambda x:x.str.contains("Texas A&") | x.str.contains(
+    "TAMU") | x.str.contains("A &")] = "Texas A & M University (TAMU)"
+
+df["institution"][lambda x:x.str.contains(
+    "Northwestern")] = "Northwestern University"
+
+df["institution"][lambda x:x.str.contains("Waterl")] = "University of Waterloo"
+
+df["institution"][lambda x:x.str.contains(
+    "Austin") | x.str.contains(
+    "Austion")] = "University Of Texas at Austin (UT Austin)"
