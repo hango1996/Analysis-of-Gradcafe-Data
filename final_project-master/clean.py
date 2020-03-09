@@ -32,5 +32,15 @@ df.loc[df.GRE_Q==179, 'GRE_Q']=169
 df.loc[df.GRE_Q==180, 'GRE_Q']=170
 df.loc[df.GRE_Q<130, 'GRE_Q']=np.nan
 
+# scale GRE AW
+# 0 to nan, 30 to 3, 0.3 to 3, 4.8, 42, 44 to 4
+df.loc[df.GRE_W==0, 'GRE_W']=np.nan
+df.loc[df.GRE_W==30, 'GRE_W']=3
+df.loc[df.GRE_W==0.3, 'GRE_W']=3
+df.loc[df.GRE_W==4.8, 'GRE_W']=4
+df.loc[df.GRE_W==42, 'GRE_W']=4
+df.loc[df.GRE_W==44, 'GRE_W']=4
+df.loc[df.GRE_W>6, 'GRE_W']=np.nan
+
 # correct unexpected season
 df.loc[df.season=='?', 'season']='F09'
