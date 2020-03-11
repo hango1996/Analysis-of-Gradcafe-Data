@@ -1,7 +1,9 @@
 from clean import df
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import plotnine as p9
+from wordcloud import WordCloud
 
 
 def event_counts_date(abbr_institution="Davis", degree="PhD"):
@@ -22,4 +24,24 @@ def event_counts_date(abbr_institution="Davis", degree="PhD"):
     return gg
 
 
-event_counts_date("Davis")
+# def wordcloud(abbr_institution="Davis", degree="PhD"):
+def wordcloud_df(request=lambda x: x["degree"] == "PhD"):
+    df_selected = df[request]
+    wordcloud = WordCloud().generate(df_selected["notes"].str.cat())
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis("off")
+
+
+wordcloud_df(lambda x: x["degree"] == "PhD")
+wordcloud_df(lambda x: x["degree"] == "Masters")
+
+wordcloud_df(lambda x: (x["admission_status"] ==
+                        "Accepted") & (x["degree"] == "PhD"))
+wordcloud_df(lambda x: (x["admission_status"] ==
+                        "Interview") & (x["degree"] == "PhD"))
+
+wordcloud_df(lambda x: (x["institution"].str.contains(
+                        "Davis")) & (x["degree"] == "PhD"))
+
+
+event_counts_date("NCSU")
