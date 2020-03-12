@@ -24,24 +24,59 @@ def event_counts_date(abbr_institution="Davis", degree="PhD"):
     return gg
 
 
-# def wordcloud(abbr_institution="Davis", degree="PhD"):
-def wordcloud_df(request=lambda x: x["degree"] == "PhD"):
-    df_selected = df[request]
-    wordcloud = WordCloud().generate(df_selected["notes"].str.cat())
+event_counts_date("Davis")
+event_counts_date("Stanford")
+
+
+def wordcloud_df(request_disc=None):
+    '''
+    request should be given as a dictionary
+    '''
+    request = np.ones(df.shape[0], dtype=bool)
+    for key in request_disc.keys():
+        if key == "institution":
+            request = request & (df[key].str.contains(request_disc[key]))
+        else:
+            request = request & (df[key] == request_disc[key])
+    wordcloud = WordCloud().generate(df[request]["notes"].str.cat())
+    samp = df[request].iloc[0]
+    title = ""
+    for key in request_disc.keys():
+        title += samp[key]
+        title += " "
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis("off")
+    plt.title(title)
 
 
-wordcloud_df(lambda x: x["degree"] == "PhD")
-wordcloud_df(lambda x: x["degree"] == "Masters")
+wordcloud_df({"degree": "PhD"})
+wordcloud_df({"admission_status": "Rejected", "degree": "PhD"})
+wordcloud_df({"admission_status": "Interview", "degree": "PhD"})
 
-wordcloud_df(lambda x: (x["admission_status"] ==
-                        "Accepted") & (x["degree"] == "PhD"))
-wordcloud_df(lambda x: (x["admission_status"] ==
-                        "Interview") & (x["degree"] == "PhD"))
-
-wordcloud_df(lambda x: (x["institution"].str.contains(
-                        "Davis")) & (x["degree"] == "PhD"))
+wordcloud_df({"institution": "Davis", "degree": "PhD"})
 
 
-event_counts_date("NCSU")
+def ST_prop_piechart(request_disc=None):
+    request = np.ones(df.shape[0], dtype=bool)
+    for key in request_disc.keys():
+        if key == "institution":
+            request = request & (df[key].str.contains(request_disc[key]))
+        else:
+            request = request & (df[key] == request_disc[key])
+    df_selected = df[request]
+    prop = df_selected["ST"].value_counts()
+    prop /= np.sum(prop)
+    samp = df_selected.iloc[0]
+    title = ""
+    for key in request_disc.keys():
+        title += samp[key]
+        title += " "
+    plt.pie(
+        prop, explode=0.1*(prop.index == "I"), labels=prop.index, autopct='%1.1f%%', shadow=True)
+    plt.title(title)
+
+
+ST_prop_piechart({"institution": "Davis",
+                  "admission_status": "Accepted", "degree": "PhD"})
+ST_prop_piechart({"institution": "Davis",
+                  "degree": "PhD"})
