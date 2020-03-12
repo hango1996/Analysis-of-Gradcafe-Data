@@ -11,18 +11,16 @@ def get_global_rank(headers, page_num = 1):
     '''
     This function parse the data from the website "https://www.usnews.com/education/best-global-universities/rankings"
     It is about the overall rank in the world.
-    We select some key features including rank, name, score, conutry and district. 
+    We select some key features including rank, name, score, conutry and district.
     We use request function and Beautiful soup to scrape
     '''
     print("Page_num{}".format(page_num))
     url = "https://www.usnews.com/education/best-global-universities/rankings" + '?page=' + str(page_num)
-
     try:
         response = requests.get(url, headers = headers)
     except requests.exceptions.RequestException:
         print("Request Failed")
         return None
-
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'lxml')
         collset_content = soup.find_all(name = 'div', attrs = {'class': 'maincontent'})
@@ -42,7 +40,7 @@ def get_global_rank(headers, page_num = 1):
             else:
                 country = np.nan
                 district = np.nan
-            rank = result.select_one(r'span[class="rankscore-bronze"]').text.strip()[1:3]
+            rank = result.select_one(r'span[class="rankscore-bronze"]').text.strip()[1:4].strip()
             yield {
                 "rank": rank,
                 "name": name,
@@ -64,11 +62,13 @@ def get_global_rank(headers, page_num = 1):
 
 
 
-
+headers = {
+    'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
+}
 page_num = 100
 data = []
 for page_num in range(page_num):
-    info = get_global_rank(page_num = page_num, headers = headers)
+    info = get_global_rank(page_num = page_num + 1, headers = headers)
     for result in info:
         data.append(result)
 
