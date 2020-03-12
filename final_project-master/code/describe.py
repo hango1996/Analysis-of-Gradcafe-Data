@@ -56,7 +56,7 @@ wordcloud_df({"admission_status": "Interview", "degree": "PhD"})
 wordcloud_df({"institution": "Davis", "degree": "PhD"})
 
 
-def ST_prop_piechart(request_disc=None):
+def prop_piechart(which_prop="ST", request_disc=None):
     request = np.ones(df.shape[0], dtype=bool)
     for key in request_disc.keys():
         if key == "institution":
@@ -64,7 +64,7 @@ def ST_prop_piechart(request_disc=None):
         else:
             request = request & (df[key] == request_disc[key])
     df_selected = df[request]
-    prop = df_selected["ST"].value_counts()
+    prop = df_selected[which_prop].value_counts()
     prop /= np.sum(prop)
     samp = df_selected.iloc[0]
     title = ""
@@ -72,11 +72,16 @@ def ST_prop_piechart(request_disc=None):
         title += samp[key]
         title += " "
     plt.pie(
-        prop, explode=0.1*(prop.index == "I"), labels=prop.index, autopct='%1.1f%%', shadow=True)
+        prop, explode=0.1*(prop == np.max(prop)), labels=prop.index, autopct='%1.1f%%', shadow=True)
     plt.title(title)
 
 
-ST_prop_piechart({"institution": "Davis",
-                  "admission_status": "Accepted", "degree": "PhD"})
-ST_prop_piechart({"institution": "Davis",
-                  "degree": "PhD"})
+prop_piechart("ST", {"institution": "Davis",
+                     "admission_status": "Accepted", "degree": "PhD"})
+prop_piechart("ST", {"institution": "Davis",
+                     "degree": "PhD"})
+
+prop_piechart("admission_status", {"institution": "Davis", "degree": "PhD"})
+prop_piechart("admission_status", {"institution": "Berkeley", "degree": "PhD"})
+prop_piechart("admission_status", {
+              "institution": "of Washington", "degree": "PhD"})
