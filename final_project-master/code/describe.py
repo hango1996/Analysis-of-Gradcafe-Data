@@ -4,6 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotnine as p9
 from wordcloud import WordCloud
+from sklearn.feature_extraction import text
+from sklearn.model_selection import cross_val_score
+from sklearn import tree
 
 
 def event_counts_date(abbr_institution="Davis", degree="PhD"):
@@ -22,10 +25,6 @@ def event_counts_date(abbr_institution="Davis", degree="PhD"):
     gg += p9.geom_count()
     gg += p9.ggtitle(df_selected["institution"].iloc[0])
     return gg
-
-
-event_counts_date("Davis")
-event_counts_date("Stanford")
 
 
 def wordcloud_df(request_disc=None):
@@ -49,13 +48,6 @@ def wordcloud_df(request_disc=None):
     plt.title(title)
 
 
-wordcloud_df({"degree": "PhD"})
-wordcloud_df({"admission_status": "Rejected", "degree": "PhD"})
-wordcloud_df({"admission_status": "Interview", "degree": "PhD"})
-
-wordcloud_df({"institution": "Davis", "degree": "PhD"})
-
-
 def prop_piechart(which_prop="ST", request_disc=None):
     request = np.ones(df.shape[0], dtype=bool)
     for key in request_disc.keys():
@@ -76,12 +68,32 @@ def prop_piechart(which_prop="ST", request_disc=None):
     plt.title(title)
 
 
+event_counts_date("Davis")
+event_counts_date("Stanford")
+
+
+wordcloud_df({"degree": "PhD"})
+
+wordcloud_df({"institution": "Davis", "degree": "PhD"})
+
+
 prop_piechart("ST", {"institution": "Davis",
+                     "admission_status": "Accepted", "degree": "PhD"})
+prop_piechart("ST", {"institution": "Berkeley",
                      "admission_status": "Accepted", "degree": "PhD"})
 prop_piechart("ST", {"institution": "Davis",
                      "degree": "PhD"})
 
 prop_piechart("admission_status", {"institution": "Davis", "degree": "PhD"})
 prop_piechart("admission_status", {"institution": "Berkeley", "degree": "PhD"})
-prop_piechart("admission_status", {
-              "institution": "of Washington", "degree": "PhD"})
+
+df_sel = df[["notes", "admission_status"]].dropna()
+tfidf = text.TfidfVectorizer()
+X = tfidf.fit_transform(df_sel["notes"]).toarray()
+feature_names = tfidf.get_feature_names()
+y = df_sel["admission_status"]
+clf = tree.DecisionTreeClassifier(random_state=0)
+clf.fit(X, y)
+tree.plot_tree(clf, max_depth=7, filled=True, feature_names=feature_names)
+
+cross_val_score(clf, X, y, cv=10)
