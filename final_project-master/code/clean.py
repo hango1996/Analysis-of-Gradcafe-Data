@@ -56,91 +56,159 @@ df.loc[df.GRE_W > 6, 'GRE_W'] = np.nan
 df.loc[df.season == '?', 'season'] = 'F09'
 
 # correct name of institutions
-df.loc[df.institution.str.contains('stanford', case=False), 'institution'] = 'Stanford University (Department of Statistics)'
-df.loc[df.institution.str.contains('berk|UCB', case=False), 'institution'] = 'University of California--Berkeley (Department of Statistics)'
-df.loc[df.institution.str.contains('harvard', case=False), 'institution'] = 'Harvard University (Department of Statistics)'
-df.loc[df.institution.str.contains('chic', case=False) & ~df.institution.str.contains('loyola|illinois', case=False), 'institution'] = 'University of Chicago (Department of Statistics)'
-df.loc[df.institution.str.contains('CMU|Mellon', case=False), 'institution'] = 'Carnegie Mellon University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'stanford', case=False), 'institution'] = 'Stanford University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'berk|UCB', case=False), 'institution'] = 'University of California--Berkeley (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'harvard', case=False), 'institution'] = 'Harvard University (Department of Statistics)'
+df.loc[df.institution.str.contains('chic', case=False) & ~df.institution.str.contains(
+    'loyola|illinois', case=False), 'institution'] = 'University of Chicago (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'CMU|Mellon', case=False), 'institution'] = 'Carnegie Mellon University (Department of Statistics)'
 df.loc[df.institution.str.contains('wash|seat', case=False) & ~df.institution.str.contains(
     'Louis|George|state', case=False), 'institution'] = 'University of Washington (Department of Statistics)'
-df.loc[df.institution.str.contains('duke', case=False), 'institution'] = 'Duke University (Department of Statistical Science)'
-df.loc[df.institution.str.contains('Michigan', case=False) & ~df.institution.str.contains('State|Western|Central|Tech', case=False), 'institution'] = 'University of Michigan--Ann Arbor (Department of Statistics)'
-df.loc[df.institution.str.contains('Penn|Whar', case=False) & ~df.institution.str.contains('state', case=False), 'institution'] = 'University of Pennsylvania (Department of Statistics)'
-df.loc[df.institution.str.contains('Columbia', case=False) & ~df.institution.str.contains('British|Missouri|College|South', case=False), 'institution'] = 'Columbia University (Department of Statistics)'
-df.loc[df.institution.str.contains('NCSU|Carolina S|NC S', case=False), 'institution'] = 'North Carolina State University (Department of Statistics)'
-df.loc[df.institution.str.contains('Wisc|Madison|UWM', case=False) & ~df.institution.str.contains('Milwaukee|James', case=False), 'institution'] = 'University of Wisconsin--Madison (Department of Statistics)'
-df.loc[df.institution.str.contains('North Caro|UNC|Chap', case=False) & ~df.institution.str.contains('State|Charlotte', case=False), 'institution'] = 'University of North Carolina--Chapel Hill (Department of Statistics & Operations Research)'
-df.loc[df.institution.str.contains('Cornell', case=False), 'institution'] = 'Cornell University (Department of Statistical Science)'
-df.loc[df.institution.str.contains('Iowa S|ISU', case=False), 'institution'] = 'Iowa State University (Department of Statistics)'
-df.loc[df.institution.str.contains('Penn State|PSU|Pennsylvania State|Penn. State', case=False), 'institution'] = 'Pennsylvania State University (Department of Statistics)'
-df.loc[df.institution.str.contains('Texas A&|TAMU|A &', case=False), 'institution'] = 'Texas A&M University--College Station (Department of Statistics)'
-df.loc[df.institution.str.contains('UMN|nesota', case=False), 'institution'] = 'University of Minnesota--Twin Cities (School of Statistics)'
-df.loc[df.institution.str.contains('Purdue', case=False) & ~df.institution.str.contains('India', case=False), 'institution'] = 'Purdue University--West Lafayette (Department of Statistics)'
-df.loc[df.institution.str.contains('JHU|Johns|Hopkins', case=False), 'institution'] = 'Johns Hopkins University (Department of Applied Mathematics and Statistics)'
-df.loc[df.institution.str.contains('Dav|daiv|Dacis', case=False), 'institution'] = 'University of California--Davis (Department of Statistics)'
-df.loc[df.institution.str.contains('UCLA|Los', case=False), 'institution'] = 'University of California--Los Angeles (Department of Statistics)'
-df.loc[df.institution.str.contains('Yale', case=False), 'institution'] = 'Yale University (Department of Statistics)'
-df.loc[df.institution.str.contains('OSU|ohio s', case=False), 'institution'] = 'Ohio State University (Department of Statistics)'
-df.loc[df.institution.str.contains('Illin|uiuc', case=False) & ~df.institution.str.contains('Chicago|North|State', case=False), 'institution'] = 'University of Illinois--Urbana-Champaign (Department of Statistics)'
-df.loc[df.institution.str.contains('Rutgers', case=False) & ~df.institution.str.contains('education', case=False), 'institution'] = 'Rutgers University--New Brunswick (Department of Statistics and Biostatistics)'
-df.loc[df.institution.str.contains('Florida|ufl', case=False) & ~df.institution.str.contains('central|south|State', case=False), 'institution'] = 'University of Florida (Department of Statistics)'
-df.loc[df.institution.str.contains('Iowa', case=False) & ~df.institution.str.contains('State', case=False), 'institution'] = 'University of Iowa (Department of Statistics and Actuarial Science)'
-df.loc[df.institution.str.contains('Rice', case=False), 'institution'] = 'Rice University (Department of Statistics)'
-df.loc[df.institution.str.contains('Colorado St', case=False), 'institution'] = 'Colorado State University (Department of Statistics)'
-df.loc[df.institution.str.contains('Florida Sta|FSU', case=False), 'institution'] = 'Florida State University (Department of Statistics)'
-df.loc[df.institution.str.contains('conn', case=False), 'institution'] = 'University of Connecticut (Department of Statistics)'
-df.loc[df.institution.str.contains('Michigan State|MSU', case=False), 'institution'] = 'University of Connecticut (Department of Statistics)'
-df.loc[df.institution.str.contains('UCI|irvine', case=False), 'institution'] = 'University of California--Irvine (Department of Statistics)'
-df.loc[df.institution.str.contains('Austin|austion', case=False), 'institution'] = 'University of Texas--Austin (Department of Statistics and Data Science)'
-df.loc[df.institution.str.contains('Northwestern', case=False), 'institution'] = 'Northwestern University (Department of Statistics)'
-df.loc[df.institution.str.contains('Pitt', case=False), 'institution'] = 'University of Pittsburgh (Department of Statistics)'
-df.loc[df.institution.str.contains('george', case=False) & ~df.institution.str.contains('town|mason', case=False), 'institution'] = 'University of Pittsburgh (Department of Statistics)'
-df.loc[df.institution.str.contains('new york|nyu', case=False) & ~df.institution.str.contains('state|columbia', case=False), 'institution'] = 'New York University (Department of Information, Operations, and Management Sciences)'
-df.loc[df.institution.str.contains('george|uga', case=False) & ~df.institution.str.contains('state|tec', case=False), 'institution'] = 'University of Georgia (Department of Statistics)'
-df.loc[df.institution.str.contains('Missouri', case=False) & ~df.institution.str.contains('S & T', case=False), 'institution'] = 'University of Missouri--Columbia (Department of Statistics)'
-df.loc[df.institution.str.contains('Virginia Tech|VT|Virginia Polytechnic|VirginiaTech|Virgina Tech', case=False), 'institution'] = 'Virginia Tech (Department of Statistics)'
-df.loc[df.institution.str.contains('UCSB|Barbara|Babara|Barabara', case=False), 'institution'] = 'University of California--Santa Barbara (Department of Statistics and Applied Probability)'
-df.loc[df.institution.str.contains('Indiana|IUB', case=False) & ~df.institution.str.contains('purdue', case=False), 'institution'] = 'Indiana University--Bloomington (Department of Statistics)'
-df.loc[df.institution.str.contains('smu|Methodist', case=False), 'institution'] = 'Southern Methodist University (Department of Statistical Science)'
-df.loc[df.institution.str.contains('Maryland|Baltimore', case=False) & ~df.institution.str.contains('college|park', case=False), 'institution'] = 'University of Maryland--Baltimore County (Department of Mathematics and Statistics)'
-df.loc[df.institution.str.contains('of Virginia|Virginia University|UVA', case=False) & ~df.institution.str.contains('education', case=False), 'institution'] = 'University of Virginia (Department of Statistics)'
-df.loc[df.institution.str.contains('Oregon', case=False), 'institution'] = 'Oregon State University (Department of Statistics)'
-df.loc[df.institution.str.contains('UCR|Riverside', case=False), 'institution'] = 'University of California--Riverside (Department of Statistics)'
-df.loc[df.institution.str.contains('Amherst|mass', case=False), 'institution'] = 'University of Massachusetts--Amherst (Department of Mathematics and Statistics)'
-df.loc[df.institution.str.contains('South Carolina|Southern Carolina', case=False), 'institution'] = 'University of South Carolina (Department of Statistics)'
-df.loc[df.institution.str.contains('Arizona S|ASU', case=False), 'institution'] = 'Arizona State University (School of Mathematical & Statistical Sciences)'
-df.loc[df.institution.str.contains('case|Reserve|CWRU', case=False), 'institution'] = 'Case Western Reserve University (Department of Statistics)'                 
-df.loc[df.institution.str.contains('temple', case=False), 'institution'] = 'Temple University (Department of Statistics)'                 
-df.loc[df.institution.str.contains('baylor', case=False), 'institution'] = 'Baylor University (Department of Statistical Science)'         
-df.loc[df.institution.str.contains('Mason|GMU', case=False), 'institution'] = 'George Mason University (Department of Statistics)'         
-df.loc[df.institution.str.contains('Kansas S|KSU', case=False) & ~df.institution.str.contains('central|south|State', case=False), 'institution'] = 'Kansas State University (Department of Statistics)'                 
-df.loc[df.institution.str.contains('Colorado Denver', case=False), 'institution'] = 'University of Colorado--Denver (Department of Mathematical and Statistical Sciences)'                 
-df.loc[df.institution.str.contains('kentucky', case=False), 'institution'] = 'University of Kentucky (Department of Statistics)'
-df.loc[df.institution.str.contains('Commonwealth', case=False), 'institution'] = 'Virginia Commonwealth University (Department of Statistics)'
-df.loc[df.institution.str.contains('Diego S', case=False), 'institution'] = 'San Diego State University (Department of Mathematics and Statistics)'
-df.loc[df.institution.str.contains('UNC Charlotte', case=False), 'institution'] = 'University of North Carolina--Charlotte (Department of Mathematics and Statistics)'                 
-df.loc[df.institution.str.contains('Antonio', case=False), 'institution'] = 'University of Texas--San Antonio (Department of Management Science and Statistics)'
-df.loc[df.institution.str.contains('Auburn', case=False), 'institution'] = 'Auburn University (Department of Mathematics and Statistics)'
+df.loc[df.institution.str.contains(
+    'duke', case=False), 'institution'] = 'Duke University (Department of Statistical Science)'
+df.loc[df.institution.str.contains('Michigan', case=False) & ~df.institution.str.contains(
+    'State|Western|Central|Tech', case=False), 'institution'] = 'University of Michigan--Ann Arbor (Department of Statistics)'
+df.loc[df.institution.str.contains('Penn|Whar', case=False) & ~df.institution.str.contains(
+    'state', case=False), 'institution'] = 'University of Pennsylvania (Department of Statistics)'
+df.loc[df.institution.str.contains('Columbia', case=False) & ~df.institution.str.contains(
+    'British|Missouri|College|South', case=False), 'institution'] = 'Columbia University (Department of Statistics)'
+df.loc[df.institution.str.contains('NCSU|Carolina S|NC S', case=False),
+       'institution'] = 'North Carolina State University--Raleigh (Department of Statistics)'
+df.loc[df.institution.str.contains('Wisc|Madison|UWM', case=False) & ~df.institution.str.contains(
+    'Milwaukee|James', case=False), 'institution'] = 'University of Wisconsin--Madison (Department of Statistics)'
+df.loc[df.institution.str.contains('North Caro|UNC|Chap', case=False) & ~df.institution.str.contains(
+    'State|Charlotte', case=False), 'institution'] = 'University of North Carolina--Chapel Hill (Department of Statistics & Operations Research)'
+df.loc[df.institution.str.contains(
+    'Cornell', case=False), 'institution'] = 'Cornell University (Department of Statistical Science)'
+df.loc[df.institution.str.contains(
+    'Iowa S|ISU', case=False), 'institution'] = 'Iowa State University (Department of Statistics)'
+df.loc[df.institution.str.contains('Penn State|PSU|Pennsylvania State|Penn. State', case=False),
+       'institution'] = 'Pennsylvania State University (Department of Statistics)'
+df.loc[df.institution.str.contains('Texas A&|TAMU|A &', case=False),
+       'institution'] = 'Texas A&M University--College Station (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'UMN|nesota', case=False), 'institution'] = 'University of Minnesota--Twin Cities (School of Statistics)'
+df.loc[df.institution.str.contains('Purdue', case=False) & ~df.institution.str.contains(
+    'India', case=False), 'institution'] = 'Purdue University--West Lafayette (Department of Statistics)'
+df.loc[df.institution.str.contains('JHU|Johns|Hopkins', case=False),
+       'institution'] = 'Johns Hopkins University (Department of Applied Mathematics and Statistics)'
+df.loc[df.institution.str.contains('Dav|daiv|Dacis', case=False),
+       'institution'] = 'University of California--Davis (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'UCLA|Los', case=False), 'institution'] = 'University of California--Los Angeles (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'Yale', case=False), 'institution'] = 'Yale University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'OSU|ohio s', case=False), 'institution'] = 'Ohio State University (Department of Statistics)'
+df.loc[df.institution.str.contains('Illin|uiuc', case=False) & ~df.institution.str.contains(
+    'Chicago|North|State', case=False), 'institution'] = 'University of Illinois--Urbana-Champaign (Department of Statistics)'
+df.loc[df.institution.str.contains('Rutgers', case=False) & ~df.institution.str.contains(
+    'education', case=False), 'institution'] = 'Rutgers University--New Brunswick (Department of Statistics and Biostatistics)'
+df.loc[df.institution.str.contains('Florida|ufl', case=False) & ~df.institution.str.contains(
+    'central|south|State', case=False), 'institution'] = 'University of Florida (Department of Statistics)'
+df.loc[df.institution.str.contains('Iowa', case=False) & ~df.institution.str.contains(
+    'State', case=False), 'institution'] = 'University of Iowa (Department of Statistics and Actuarial Science)'
+df.loc[df.institution.str.contains(
+    'Rice', case=False), 'institution'] = 'Rice University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'Colorado St', case=False), 'institution'] = 'Colorado State University (Department of Statistics)'
+df.loc[df.institution.str.contains('Florida Sta|FSU', case=False),
+       'institution'] = 'Florida State University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'conn', case=False), 'institution'] = 'University of Connecticut (Department of Statistics)'
+df.loc[df.institution.str.contains('Michigan State|MSU', case=False),
+       'institution'] = 'University of Connecticut (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'UCI|irvine', case=False), 'institution'] = 'University of California--Irvine (Department of Statistics)'
+df.loc[df.institution.str.contains('Austin|austion', case=False),
+       'institution'] = 'University of Texas--Austin (Department of Statistics and Data Science)'
+df.loc[df.institution.str.contains('Northwestern', case=False),
+       'institution'] = 'Northwestern University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'Pitt', case=False), 'institution'] = 'University of Pittsburgh (Department of Statistics)'
+df.loc[df.institution.str.contains('george', case=False) & ~df.institution.str.contains(
+    'town|mason', case=False), 'institution'] = 'University of Pittsburgh (Department of Statistics)'
+df.loc[df.institution.str.contains('new york|nyu', case=False) & ~df.institution.str.contains(
+    'state|columbia', case=False), 'institution'] = 'New York University (Department of Information, Operations, and Management Sciences)'
+df.loc[df.institution.str.contains('george|uga', case=False) & ~df.institution.str.contains(
+    'state|tec', case=False), 'institution'] = 'University of Georgia (Department of Statistics)'
+df.loc[df.institution.str.contains('Missouri', case=False) & ~df.institution.str.contains(
+    'S & T', case=False), 'institution'] = 'University of Missouri--Columbia (Department of Statistics)'
+df.loc[df.institution.str.contains('Virginia Tech|VT|Virginia Polytechnic|VirginiaTech|Virgina Tech',
+                                   case=False), 'institution'] = 'Virginia Tech (Department of Statistics)'
+df.loc[df.institution.str.contains('UCSB|Barbara|Babara|Barabara', case=False),
+       'institution'] = 'University of California--Santa Barbara (Department of Statistics and Applied Probability)'
+df.loc[df.institution.str.contains('Indiana|IUB', case=False) & ~df.institution.str.contains(
+    'purdue', case=False), 'institution'] = 'Indiana University--Bloomington (Department of Statistics)'
+df.loc[df.institution.str.contains('smu|Methodist', case=False),
+       'institution'] = 'Southern Methodist University (Department of Statistical Science)'
+df.loc[df.institution.str.contains('Maryland|Baltimore', case=False) & ~df.institution.str.contains(
+    'college|park', case=False), 'institution'] = 'University of Maryland--Baltimore County (Department of Mathematics and Statistics)'
+df.loc[df.institution.str.contains('of Virginia|Virginia University|UVA', case=False) & ~df.institution.str.contains(
+    'education', case=False), 'institution'] = 'University of Virginia (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'Oregon', case=False), 'institution'] = 'Oregon State University (Department of Statistics)'
+df.loc[df.institution.str.contains('UCR|Riverside', case=False),
+       'institution'] = 'University of California--Riverside (Department of Statistics)'
+df.loc[df.institution.str.contains('Amherst|mass', case=False),
+       'institution'] = 'University of Massachusetts--Amherst (Department of Mathematics and Statistics)'
+df.loc[df.institution.str.contains('South Carolina|Southern Carolina', case=False),
+       'institution'] = 'University of South Carolina (Department of Statistics)'
+df.loc[df.institution.str.contains('Arizona S|ASU', case=False),
+       'institution'] = 'Arizona State University (School of Mathematical & Statistical Sciences)'
+df.loc[df.institution.str.contains('case|Reserve|CWRU', case=False),
+       'institution'] = 'Case Western Reserve University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'temple', case=False), 'institution'] = 'Temple University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'baylor', case=False), 'institution'] = 'Baylor University (Department of Statistical Science)'
+df.loc[df.institution.str.contains(
+    'Mason|GMU', case=False), 'institution'] = 'George Mason University (Department of Statistics)'
+df.loc[df.institution.str.contains('Kansas S|KSU', case=False) & ~df.institution.str.contains(
+    'central|south|State', case=False), 'institution'] = 'Kansas State University (Department of Statistics)'
+df.loc[df.institution.str.contains('Colorado Denver', case=False),
+       'institution'] = 'University of Colorado--Denver (Department of Mathematical and Statistical Sciences)'
+df.loc[df.institution.str.contains(
+    'kentucky', case=False), 'institution'] = 'University of Kentucky (Department of Statistics)'
+df.loc[df.institution.str.contains('Commonwealth', case=False),
+       'institution'] = 'Virginia Commonwealth University (Department of Statistics)'
+df.loc[df.institution.str.contains(
+    'Diego S', case=False), 'institution'] = 'San Diego State University (Department of Mathematics and Statistics)'
+df.loc[df.institution.str.contains('UNC Charlotte', case=False),
+       'institution'] = 'University of North Carolina--Charlotte (Department of Mathematics and Statistics)'
+df.loc[df.institution.str.contains(
+    'Antonio', case=False), 'institution'] = 'University of Texas--San Antonio (Department of Management Science and Statistics)'
+df.loc[df.institution.str.contains(
+    'Auburn', case=False), 'institution'] = 'Auburn University (Department of Mathematics and Statistics)'
 
 
+df.loc[df.institution.str.contains('UCSD|San Diego', case=False) & ~df.institution.str.contains(
+    'State', case=False), 'institution'] = 'University of California--San Diego'
+df.loc[df.institution.str.contains('Southern California|USC|South Califor',
+                                   case=False), 'institution'] = 'University of Southern California'
 
-
-df.loc[df.institution.str.contains('UCSD|San Diego', case=False) & ~df.institution.str.contains('State', case=False), 'institution'] = 'University of California--San Diego'
-df.loc[df.institution.str.contains('Southern California|USC|South Califor', case=False), 'institution']='University of Southern California'
-
-df.loc[df.institution.str.contains('Toronto', case=False), 'institution'] = 'University of Toronto'
+df.loc[df.institution.str.contains(
+    'Toronto', case=False), 'institution'] = 'University of Toronto'
 df.loc[df.institution.str.contains('British Columbia', case=False) | df.institution.str.contains(
     'UBC', case=False), 'institution'] = 'University of British Columbia'
-df.loc[df.institution.str.contains('Waterl', case=False), 'institution'] = 'University of Waterloo'
+df.loc[df.institution.str.contains(
+    'Waterl', case=False), 'institution'] = 'University of Waterloo'
 
 
 # merge stat_rank and overall_rank
 # add two new columns: USnew_stat_score and USnew_stat_score
 df1 = pd.read_csv('../data/USnew_stat_rank.csv')
 df2 = pd.read_csv('../data/USnew_overall_rank.csv')
-df = pd.merge(df, df1[['score','name']], left_on='institution', right_on='name')
+df = pd.merge(df, df1[['score', 'name']],
+              left_on='institution', right_on='name')
 df = df.rename(columns={'score': 'USnew_stat_score'})
 df.name = df.name.str.replace(r' ?\([^)]+\)', '')
-df = pd.merge(df, df2[['score','name']], on='name')
+df = pd.merge(df, df2[['score', 'name']], on='name')
 df = df.rename(columns={'score': 'USnew_overall_score'})
-df = df.drop(columns=['name'])
+df = df.drop(columns=['name', "Unnamed: 0"])
+df.sort_values(by="admission_date", ascending=False,
+               inplace=True, ignore_index=True)
