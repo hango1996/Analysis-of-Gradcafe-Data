@@ -44,7 +44,7 @@
 42,43,Nanyang Technological University,75.4,Singapore,
 43,43,University of Munich,75.4,Germany,Munich
 44,45,École Polytechnique Federale of Lausanne,75.3,Switzerland,Lausanne
-45,45,Ohio State University--Columbus,75.3,United States,"Columbus, OH"
+45,45,Ohio State University,75.3,United States,"Columbus, OH"
 46,47,University of Minnesota--Twin Cities,75.1,United States,"Minneapolis, MN"
 47,47,University of Pittsburgh,75.1,United States,"Pittsburgh, PA"
 48,49,McGill University,74.7,Canada,"Montréal, Québec"
@@ -70,7 +70,7 @@
 68,69,Australian National University,73.2,Australia,"Canberra, Australian Capital Territory"
 69,69,University of Southern California,73.2,United States,"Los Angeles, CA"
 70,71,Emory University,72.7,United States,"Atlanta, GA"
-71,72,Pennsylvania State University--University Park,72.6,United States,"University Park, PA"
+71,72,Pennsylvania State University,72.6,United States,"University Park, PA"
 72,72,Vanderbilt University,72.6,United States,"Nashville, TN"
 73,74,Erasmus University Rotterdam,72.5,Netherlands,Rotterdam
 74,74,University of Tokyo,72.5,Japan,"Bunkyo-ku, Tokyo"
@@ -103,7 +103,7 @@
 101,102,Brown University,69,United States,"Providence, RI"
 102,102,Uppsala University,69,Sweden,Uppsala
 103,104,Radboud University Nijmegen,68.9,Netherlands,Nijmegen
-104,105,"Rutgers, The State University of New Jersey--New Brunswick",68.7,United States,"Piscataway Township, NJ"
+104,105,Rutgers University--New Brunswick,68.7,United States,"Piscataway Township, NJ"
 105,105,University of Florida,68.7,United States,"Gainesville, FL"
 106,107,University of Virginia,68.4,United States,"Charlottesville, VA"
 107,108,Aarhus University,68.3,Denmark,Aarhus C
