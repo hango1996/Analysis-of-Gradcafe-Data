@@ -1,11 +1,10 @@
 import pandas as pd
 import numpy as np
-import re
 
 df = pd.read_csv('../data/gradcafe.csv')
-df.loc[df['admission_via'] == 'POST', 'admission_via'] = 'Postal Service'
-df.loc[np.logical_not(df['degree'].isin(
-    ['PhD', 'Masters', 'Other'])), 'degree'] = 'Other'
+
+df.loc[df.admission_via == 'POST', 'admission_via'] = 'Postal Service'
+df.loc[~df.degree.isin(['PhD', 'Masters', 'Other']), 'degree'] = 'Other'
 for col in ['ST', 'degree', 'admission_status', 'admission_via']:
     df[col] = df[col].astype('category')
 for col in ['admission_date', 'Date_added']:
@@ -51,6 +50,10 @@ df.loc[df.GRE_W == 4.8, 'GRE_W'] = 4
 df.loc[df.GRE_W == 42, 'GRE_W'] = 4
 df.loc[df.GRE_W == 44, 'GRE_W'] = 4
 df.loc[df.GRE_W > 6, 'GRE_W'] = np.nan
+
+# scale GRE sub
+df.loc[df.GRE_sub<10, 'GRE_sub'] = np.nan
+df.loc[df.GRE_sub<100, 'GRE_sub'] = df.loc[df.GRE_sub<100, 'GRE_sub']*10
 
 # correct unexpected season
 df.loc[df.season == '?', 'season'] = 'F09'
@@ -210,5 +213,3 @@ df.name = df.name.str.replace(r' ?\([^)]+\)', '')
 df = pd.merge(df, df2[['score', 'name']], on='name')
 df = df.rename(columns={'score': 'USnew_overall_score'})
 df = df.drop(columns=['name', "Unnamed: 0"])
-df.sort_values(by="admission_date", ascending=False,
-               inplace=True, ignore_index=True)
