@@ -1,4 +1,4 @@
-#Gradcafe: Who Got Accepted by My Dream School?#
+# Gradcafe: Who Got Accepted by My Dream School?
 
 [Gradcafe](https://www.thegradcafe.com/) is a platform where grad school applicants share admission status and communicate updates. One thing all applicants need is information - when to expect an interview, whether being put in a waiting list or receiving an email starting with Congratulations. The uncertainty that comes with these questions can be relieved to certain degree with information from other applicants.
 
