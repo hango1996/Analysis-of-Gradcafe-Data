@@ -12,6 +12,19 @@ With three datasets on admission result and ranking scraped, we are able to answ
 1. What kind of programs are popular among the applicants in Statistics?
 2. What kind of applicants are usually preferred by Statistics graduate programs?
 
+# Dataset Description
+###[gradcafe.csv](/data/gradcafe.csv)
+| Rank | Name | Score | Country | District |
+|    :---:     |     :---:      |     :---:     |
+| 1   | Harvard University     | 100    | United States | Cambridge, MA |
+| ...     | ...       | ...      |...|...|
+
+###[USnew_overall_rank.csv](/data/USnew_overall_rank.csv)
+
+###[USnew_stat_rank.csv](/data/USnew_stat_rank.csv)
+
+###[qs_rank.csv](/data/qs_rank.csv)
+
 # Repository Description
 ### [/code](code)
 [clean.py](/code/clean.py): data cleaning of Gradcafe dataset
