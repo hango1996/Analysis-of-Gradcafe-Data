@@ -13,7 +13,7 @@ With three datasets on admission result and ranking scraped, we are able to answ
 2. What kind of applicants are usually preferred by Statistics graduate programs?
 
 # Repository Description
-## [/code](code)
+### [/code](code)
 [ParsingHtml.py](/code/ParsingHtml.py): scraper of Gradcafe
 
 [clean.py](/code/clean.py): data cleaning of Gradcafe dataset
