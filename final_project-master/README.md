@@ -14,10 +14,9 @@ With three datasets on admission result and ranking scraped, we are able to answ
 
 # Dataset Description
 ###[gradcafe.csv](/data/gradcafe.csv)
+
 | Rank | Name | Score | Country | District |
-|    :---:     |     :---:      |     :---:     |
-| 1   | Harvard University     | 100    | United States | Cambridge, MA |
-| ...     | ...       | ...      |...|...|
+|:---: |:---: | :---: |  :---:  |  :---:   |
 
 ###[USnew_overall_rank.csv](/data/USnew_overall_rank.csv)
 
