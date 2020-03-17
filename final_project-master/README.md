@@ -14,8 +14,6 @@ With three datasets on admission result and ranking scraped, we are able to answ
 
 # Repository Description
 ### [/code](code)
-[ParsingHtml.py](/code/ParsingHtml.py): scraper of Gradcafe
-
 [clean.py](/code/clean.py): data cleaning of Gradcafe dataset
 
 [crawler.py](/code/crawler.py): scraper of Gradcafe
@@ -27,3 +25,15 @@ With three datasets on admission result and ranking scraped, we are able to answ
 [describe.py](/code/describe.py): decision tree based on Gradcafe notes
 
 [qs_ranking_scraper.py](/code/qs_ranking_scraper.py): scraper of QS ranking in Statistics
+
+### [/data](data)
+[USnew_overall_rank.csv](/data/USnew_overall_rank.csv): US News overall ranking
+
+[USnew_stat_rank.csv](/data/USnew_stat_rank.csv): US News ranking in Statistics
+
+[gradcafe.csv](/data/gradcafe.csv): Gradcafe dataset
+
+[qs_rank.csv](/data/qs_rank.csv): QS ranking in Statistics
+
+### [/notebook](notebook)
+[EDA.ipynb](/notebook/EDA.ipynb): analysis and report
