@@ -15,14 +15,23 @@ With three datasets on admission result and ranking scraped, we are able to answ
 # Dataset Description
 ###[gradcafe.csv](/data/gradcafe.csv)
 
-| Rank | Name | Score | Country | District |
-|:---: |:---: | :---: |  :---:  |  :---:   |
+| Institution | Program | Degree | Season | Admission Status | Admission Via | Status | Data Added | Notes |
+|    :---:    |  :---:  |  :---: |  :---: |      :---:       |     :---:     |  :---: |    :---:   | :---: |
 
 ###[USnew_overall_rank.csv](/data/USnew_overall_rank.csv)
 
+| Rank | Name | Score | Country | District |
+|:---: |:---: | :---: |  :---:  |  :---:   |
+
 ###[USnew_stat_rank.csv](/data/USnew_stat_rank.csv)
 
+| Rank | Name | Score| District |
+|:---: |:---: | :---:|  :---:   |
+
 ###[qs_rank.csv](/data/qs_rank.csv)
+
+| Institution | Location | Year | Rank | Overall Score | Academic Reputation | Employer Reputation | Citation per Paper | H-index citation |
+|    :---:    |  :---:   |:---: | :---:|   :---:       |        :---:        |       :---:         |       :---:        |      :---:       |
 
 # Repository Description
 ### [/code](code)
