@@ -35,26 +35,26 @@ With three datasets on admission result and ranking scraped, we are able to answ
 
 # Repository Description
 ### [/code](code)
-[clean.py](/code/clean.py): data cleaning of Gradcafe dataset
+[clean.py](code/clean.py): data cleaning of Gradcafe dataset
 
-[crawler.py](/code/crawler.py): scraper of Gradcafe
+[crawler.py](code/crawler.py): scraper of Gradcafe
 
-[crawler_usnews.py](/code/crawler_usnews.py): scraper of US News overall ranking
+[crawler_usnews.py](code/crawler_usnews.py): scraper of US News overall ranking
 
-[crawler_usnews2.py](/code/crawler_usnews2.py): scraper of US News ranking in Statistics
+[crawler_usnews2.py](code/crawler_usnews2.py): scraper of US News ranking in Statistics
 
-[plot_functions.py](/code/describe.py): contain functions for generating plots in jupyter notebooks
+[plot_functions.py](code/describe.py): contain functions for generating plots in jupyter notebooks
 
-[qs_ranking_scraper.py](/code/qs_ranking_scraper.py): scraper of QS ranking in Statistics
+[qs_ranking_scraper.py](code/qs_ranking_scraper.py): scraper of QS ranking in Statistics
 
 ### [/data](data)
-[USnew_overall_rank.csv](/data/USnew_overall_rank.csv): US News overall ranking
+[USnew_overall_rank.csv](data/USnew_overall_rank.csv): US News overall ranking
 
-[USnew_stat_rank.csv](/data/USnew_stat_rank.csv): US News ranking in Statistics
+[USnew_stat_rank.csv](data/USnew_stat_rank.csv): US News ranking in Statistics
 
-[gradcafe.csv](/data/gradcafe.csv): Gradcafe dataset
+[gradcafe.csv](data/gradcafe.csv): Gradcafe dataset
 
-[qs_rank.csv](/data/qs_rank.csv): QS ranking in Statistics
+[qs_rank.csv](data/qs_rank.csv): QS ranking in Statistics
 
 ### [/notebook](notebook)
-[EDA.ipynb](/notebook/EDA.ipynb): analysis and report
+[EDA.ipynb](notebook/EDA.ipynb): analysis and report
