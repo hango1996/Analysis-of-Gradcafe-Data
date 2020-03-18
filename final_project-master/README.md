@@ -43,7 +43,7 @@ With three datasets on admission result and ranking scraped, we are able to answ
 
 [crawler_usnews2.py](/code/crawler_usnews2.py): scraper of US News ranking in Statistics
 
-[describe.py](/code/describe.py): decision tree based on Gradcafe notes
+[plot_functions.py](/code/describe.py): contain functions for generating plots in jupyter notebooks
 
 [qs_ranking_scraper.py](/code/qs_ranking_scraper.py): scraper of QS ranking in Statistics
 
