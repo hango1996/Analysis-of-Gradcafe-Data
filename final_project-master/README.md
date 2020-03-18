@@ -15,23 +15,54 @@ With three datasets on admission result and ranking scraped, we are able to answ
 # Dataset Description
 ### [gradcafe.csv](data/gradcafe.csv)
 
-| Institution | Program | Degree | Season | Admission Status | Admission Via | Status | Data Added | Notes |
+| Institution | Program | Degree | Season | Admission Status | Admission Via | Status | Date Added | Notes |
 |    :---:    |  :---:  |  :---: |  :---: |      :---:       |     :---:     |  :---: |    :---:   | :---: |
+
+Institution: name of the Institution
+Program: name of the program
+Degree: Master's, doctoral, or others
+Season: fall or spring in which year
+Admission Status: accepted, rejected, waitlisted, or others
+Admission Via: email, website, or others
+Status: A, R, W, O (abbr. of admission status)
+Date Added: the date to report this admission result
+Notes: a note left by the poster
 
 ### [USnew_overall_rank.csv](data/USnew_overall_rank.csv)
 
 | Rank | Name | Score | Country | District |
 |:---: |:---: | :---: |  :---:  |  :---:   |
 
+Rank: the rank of the university
+Name: name of the university
+Score: score of the university
+Country: country of the university
+District: city and state where the university is located in
+
 ### [USnew_stat_rank.csv](data/USnew_stat_rank.csv)
 
 | Rank | Name | Score| District |
 |:---: |:---: | :---:|  :---:   |
 
+Rank: the rank of the university
+Name: name of the university
+Score: score of the university
+District: city and state where the university is located in
+
 ### [qs_rank.csv](data/qs_rank.csv)
 
 | Institution | Location | Year | Rank | Overall Score | Academic Reputation | Employer Reputation | Citation per Paper | H-index citation |
 |    :---:    |  :---:   |:---: | :---:|   :---:       |        :---:        |       :---:         |       :---:        |      :---:       |
+
+Institution: name of the Institution
+Location: country of the university
+Year: year of ranking
+Rank: the rank of the university
+Overall Score: the final score that decides the ranking
+Academic Reputation: score in academic reputation
+Employer Reputation: score in employer reputation
+Citation per Paper: score in citation per paper
+H-index citation: score in h-index citations 
 
 # Repository Description
 ### [/code](code)
