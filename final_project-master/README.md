@@ -13,22 +13,22 @@ With three datasets on admission result and ranking scraped, we are able to answ
 2. What kind of applicants are usually preferred by Statistics graduate programs?
 
 # Dataset Description
-###[gradcafe.csv](/data/gradcafe.csv)
+### [gradcafe.csv](/data/gradcafe.csv)
 
 | Institution | Program | Degree | Season | Admission Status | Admission Via | Status | Data Added | Notes |
 |    :---:    |  :---:  |  :---: |  :---: |      :---:       |     :---:     |  :---: |    :---:   | :---: |
 
-###[USnew_overall_rank.csv](/data/USnew_overall_rank.csv)
+### [USnew_overall_rank.csv](/data/USnew_overall_rank.csv)
 
 | Rank | Name | Score | Country | District |
 |:---: |:---: | :---: |  :---:  |  :---:   |
 
-###[USnew_stat_rank.csv](/data/USnew_stat_rank.csv)
+### [USnew_stat_rank.csv](/data/USnew_stat_rank.csv)
 
 | Rank | Name | Score| District |
 |:---: |:---: | :---:|  :---:   |
 
-###[qs_rank.csv](/data/qs_rank.csv)
+### [qs_rank.csv](/data/qs_rank.csv)
 
 | Institution | Location | Year | Rank | Overall Score | Academic Reputation | Employer Reputation | Citation per Paper | H-index citation |
 |    :---:    |  :---:   |:---: | :---:|   :---:       |        :---:        |       :---:         |       :---:        |      :---:       |
