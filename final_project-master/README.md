@@ -57,4 +57,4 @@ With three datasets on admission result and ranking scraped, we are able to answ
 [qs_rank.csv](data/qs_rank.csv): QS ranking in Statistics
 
 ### [/notebook](notebook)
-[EDA.ipynb](notebook/EDA.ipynb): analysis and report
+[EDA.ipynb](notebooks/EDA.ipynb): analysis and report
