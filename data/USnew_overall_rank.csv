@@ -1,0 +1,1001 @@
+,rank,name,score,country,district
+0,1,Harvard University,100,United States,"Cambridge, MA"
+1,2,Massachusetts Institute of Technology,98.4,United States,"Cambridge, MA"
+2,3,Stanford University,94.9,United States,"Stanford, CA"
+3,4,University of California--Berkeley,90.3,United States,"Berkeley, CA"
+4,5,University of Oxford,87.2,United Kingdom,Oxford
+5,6,California Institute of Technology,87.1,United States,"Pasadena, CA"
+6,7,Columbia University,86.5,United States,"New York, NY"
+7,8,Princeton University,85.6,United States,"Princeton, NJ"
+8,9,University of Cambridge,85.5,United Kingdom,Cambridge
+9,10,University of Washington,85.3,United States,"Seattle, WA"
+10,11,Johns Hopkins University,84.8,United States,"Baltimore, MD"
+11,12,Yale University,84.4,United States,"New Haven, CT"
+12,13,University of Chicago,84.2,United States,"Chicago, IL"
+13,14,University of California--Los Angeles,84.1,United States,"Los Angeles, CA"
+14,15,University of California--San Francisco,83.5,United States,"San Francisco, CA"
+15,16,University of Pennsylvania,83.4,United States,"Philadelphia, PA"
+16,17,University of Michigan--Ann Arbor,83.3,United States,"Ann Arbor, MI"
+17,18,University of Toronto,83.1,Canada,"Toronto, Ontario"
+18,19,University of California--San Diego,82.8,United States,"La Jolla, CA"
+19,20,Imperial College London,82.7,United Kingdom,London
+20,21,University College London,82.4,United Kingdom,London
+21,22,Duke University,81.6,United States,"Durham, NC"
+22,23,Cornell University,81.3,United States,"Ithaca, NY"
+23,24,Northwestern University,79.9,United States,"Evanston, IL"
+24,25,Swiss Federal Institute of Technology Zurich,79.4,Switzerland,Zurich
+25,26,University of Melbourne,78.8,Australia,"Parkville, Victoria"
+26,27,University of Sydney,78,Australia,"Sydney, New South Wales"
+27,28,New York University,77.8,United States,"New York, NY"
+28,28,University of Edinburgh,77.8,United Kingdom,"Edinburgh, Scotland"
+29,30,University of British Columbia,77.6,Canada,"Vancouver, British Columbia"
+30,31,Washington University in St. Louis,76.9,United States,"St. Louis, MO"
+31,32,University of Copenhagen,76.7,Denmark,Copenhagen
+32,33,University of North Carolina--Chapel Hill,76.6,United States,"Chapel Hill, NC"
+33,34,National University of Singapore,76.5,Singapore,
+34,34,University of Texas--Austin,76.5,United States,"Austin, TX"
+35,36,Tsinghua University,76.1,China,Beijing
+36,37,King's College London,76,United Kingdom,London
+37,37,Sorbonne Universite,76,France,Paris
+38,37,University of Wisconsin--Madison,76,United States,"Madison, WI"
+39,40,University of Amsterdam,75.7,Netherlands,Amsterdam
+40,41,University of California--Santa Barbara,75.6,United States,"Santa Barbara, CA"
+41,42,University of Queensland Australia,75.5,Australia,"Brisbane, Queensland"
+42,43,Nanyang Technological University,75.4,Singapore,
+43,43,University of Munich,75.4,Germany,Munich
+44,45,École Polytechnique Federale of Lausanne,75.3,Switzerland,Lausanne
+45,45,Ohio State University,75.3,United States,"Columbus, OH"
+46,47,University of Minnesota--Twin Cities,75.1,United States,"Minneapolis, MN"
+47,47,University of Pittsburgh,75.1,United States,"Pittsburgh, PA"
+48,49,McGill University,74.7,Canada,"Montréal, Québec"
+49,50,University of Colorado--Boulder,74.4,United States,"Boulder, CO"
+50,51,Boston University,74.3,United States,"Boston, MA"
+51,51,Karolinska Institute,74.3,Sweden,Stockholm
+52,51,King Abdulaziz University,74.3,Saudi Arabia,Jeddah
+53,51,University of Maryland--College Park,74.3,United States,"College Park, MD"
+54,55,Utrecht University,74.2,Netherlands,Utrecht
+55,56,Catholic University of Leuven,74.1,Belgium,Leuven
+56,56,Heidelberg University,74.1,Germany,Heidelberg
+57,58,University of Zurich,73.9,Switzerland,Zürich
+58,59,Monash University,73.8,Australia,"Clayton, Victoria"
+59,59,Peking University,73.8,China,Beijing
+60,59,University of Illinois--Urbana-Champaign,73.8,United States,"Champaign, IL"
+61,62,Georgia Institute of Technology,73.6,United States,"Atlanta, GA"
+62,62,Rockefeller University,73.6,United States,"New York, NY"
+63,64,University of California--Davis,73.5,United States,"Davis, CA"
+64,64,University of Manchester,73.5,United Kingdom,Manchester
+65,64,University of New South Wales,73.5,Australia,"Kensington, New South Wales"
+66,67,Icahn School of Medicine at Mount Sinai,73.3,United States,"New York, NY"
+67,67,Universite Sorbonne Paris Cite-USPC (ComUE),73.3,France,Paris
+68,69,Australian National University,73.2,Australia,"Canberra, Australian Capital Territory"
+69,69,University of Southern California,73.2,United States,"Los Angeles, CA"
+70,71,Emory University,72.7,United States,"Atlanta, GA"
+71,72,Pennsylvania State University,72.6,United States,"University Park, PA"
+72,72,Vanderbilt University,72.6,United States,"Nashville, TN"
+73,74,Erasmus University Rotterdam,72.5,Netherlands,Rotterdam
+74,74,University of Tokyo,72.5,Japan,"Bunkyo-ku, Tokyo"
+75,76,University of California--Santa Cruz,71.9,United States,"Santa Cruz, CA"
+76,77,Technical University of Munich,71.7,Germany,Munich
+77,78,University of California--Irvine,71.5,United States,"Irvine, CA"
+78,79,Wageningen University and Research Center,71.3,Netherlands,Wageningen
+79,80,University of Adelaide,71.2,Australia,"Adelaide, South Australia"
+80,81,University of Bristol,71,United Kingdom,Bristol
+81,82,Carnegie Mellon University,70.8,United States,"Pittsburgh, PA"
+82,82,PSL Research University Paris (ComUE),70.8,France,Paris
+83,82,VU University Amsterdam,70.8,Netherlands,Amsterdam
+84,85,University of Arizona,70.6,United States,"Tucson, AZ"
+85,86,University of Western Australia,70.5,Australia,"Crawley, Western Australia"
+86,87,Ghent University,70.4,Belgium,Gent
+87,87,University of Helsinki,70.4,Finland,Helsinki
+88,89,Leiden University,70.2,Netherlands,Leiden
+89,89,University of Glasgow,70.2,United Kingdom,"Glasgow, Scotland"
+90,91,Humboldt-Universität zu Berlin,70.1,Germany,Berlin
+91,91,Lund University,70.1,Sweden,Lund
+92,91,University of Oslo,70.1,Norway,Oslo
+93,94,University of Geneva,70,Switzerland,Geneva
+94,94,University of Southampton,70,United Kingdom,Southampton
+95,96,University of Birmingham,69.8,United Kingdom,Birmingham
+96,96,University of Groningen,69.8,Netherlands,Groningen
+97,98,University of Barcelona,69.7,Spain,Barcelona
+98,99,Weizmann Institute of Science,69.6,Israel,Rehovot
+99,100,University of Hong Kong,69.5,Hong Kong,"Pok Fu Lam, Hong Kong"
+100,101,Michigan State University,69.4,United States,"East Lansing, MI"
+101,102,Brown University,69,United States,"Providence, RI"
+102,102,Uppsala University,69,Sweden,Uppsala
+103,104,Radboud University Nijmegen,68.9,Netherlands,Nijmegen
+104,105,Rutgers University--New Brunswick,68.7,United States,"Piscataway Township, NJ"
+105,105,University of Florida,68.7,United States,"Gainesville, FL"
+106,107,University of Virginia,68.4,United States,"Charlottesville, VA"
+107,108,Aarhus University,68.3,Denmark,Aarhus C
+108,108,London School of Hygiene & Tropical Medicine,68.3,United Kingdom,London
+109,108,Rice University,68.3,United States,"Houston, TX"
+110,108,University of Bonn,68.3,Germany,Bonn
+111,112,University of Bern,68.2,Switzerland,Bern
+112,113,Chinese University Hong Kong,67.9,Hong Kong,"Shatin, New Territories"
+113,114,Purdue University--West Lafayette,67.8,United States,"West Lafayette, IN"
+114,114,Stockholm University,67.8,Sweden,Stockholm
+115,116,University of Bologna,67.7,Italy,Bologna
+116,116,University of Padua,67.7,Italy,Padua
+117,118,Université Paris-Sud,67.6,France,Orsay
+118,119,"Queen Mary, University of London",67.5,United Kingdom,London
+119,119,Sapienza University of Rome,67.5,Italy,Rome
+120,121,University of Cape Town,67.3,South Africa,Cape Town
+121,122,Freie Universität Berlin,67.2,Germany,Berlin
+122,122,Hong Kong University of Science and Technology,67.2,Hong Kong,
+123,124,Kyoto University,66.8,Japan,"Sakyo-ku, Kyoto, Kyoto"
+124,125,University of Rochester,66.7,United States,"Rochester, NY"
+125,126,McMaster University,66.6,Canada,"Hamilton, Ontario"
+126,127,University of Warwick,66.5,United Kingdom,Coventry
+127,128,Seoul National University,66.4,South Korea,Seoul
+128,128,Universidade de São Paulo,66.4,Brazil,São Paulo
+129,128,University of Basel,66.4,Switzerland,Basel
+130,128,University of Science and Technology of China,66.4,China,"Hefei, Anhui"
+131,132,Baylor College of Medicine,66.3,United States,"Houston, TX"
+132,132,University of Sheffield,66.3,United Kingdom,Sheffield
+133,134,Texas A&M University--College Station,66.2,United States,"College Station, TX"
+134,134,University of Auckland,66.2,New Zealand,Auckland
+135,136,Indiana University--Bloomington,66.1,United States,"Bloomington, IN"
+136,136,Shanghai Jiao Tong University,66.1,China,Shanghai
+137,136,University of Massachusetts--Amherst,66.1,United States,"Amherst, MA"
+138,139,Universite de Lyon (ComUE),66,France,Lyon
+139,139,University Catholique of Louvain,66,Belgium,Louvain-la-Neuve
+140,139,University of Alberta,66,Canada,"Edmonton, Alberta"
+141,139,University of Montreal,66,Canada,"Montréal, Québec"
+142,139,University of Utah,66,United States,"Salt Lake City, UT"
+143,144,Communaute Universite Grenoble Alpes,65.9,France,Saint-Martin-d'Heres
+144,145,University of Hamburg,65.8,Germany,Hamburg
+145,146,Arizona State University--Tempe,65.7,United States,"Tempe, AZ"
+146,146,University of Texas Southwestern Medical Center--Dallas,65.7,United States,"Dallas, TX"
+147,148,Technical University of Denmark,65.6,Denmark,Kongens Lyngby
+148,149,University of California--Riverside,65.3,United States,"Riverside, CA"
+149,149,University of Liverpool,65.3,United Kingdom,Liverpool
+150,151,University of Gothenburg,65.2,Sweden,Gothenburg
+151,152,King Abdullah University of Science & Technology,65.1,Saudi Arabia,Thuwal
+152,152,Oregon Health & Science University,65.1,United States,"Portland, OR"
+153,152,University of Nottingham,65.1,United Kingdom,Nottingham
+154,155,Case Western Reserve University,65,United States,"Cleveland, OH"
+155,155,University of Milan,65,Italy,Milan
+156,157,Zhejiang University,64.9,China,"Hangzhou, Zhejiang"
+157,158,University of Freiburg,64.8,Germany,Freiburg
+158,158,University of Leeds,64.8,United Kingdom,Leeds
+159,160,University of Göttingen,64.7,Germany,Göttingen
+160,161,Autonomous University of Barcelona,64.6,Spain,Barcelona
+161,161,University of Exeter,64.6,United Kingdom,"Exeter, Devon"
+162,161,University of Iowa,64.6,United States,"Iowa City, IA"
+163,164,International School for Advanced Studies,64.3,Italy,Trieste
+164,164,University of Aix-Marseille,64.3,France,Marseille
+165,164,University of Bergen,64.3,Norway,Bergen
+166,164,University of Sussex,64.3,United Kingdom,Brighton
+167,168,Cardiff University,64.1,United Kingdom,"Cardiff, Wales"
+168,168,"Eberhard Karls University, Tübingen",64.1,Germany,Tübingen
+169,168,Nanjing University,64.1,China,"Nanjing, Jiangsu"
+170,171,Fudan University,64,China,Shanghai
+171,171,Stony Brook University--SUNY,64,United States,"Stony Brook, NY"
+172,173,City University Hong Kong,63.8,Hong Kong,"Kowloon, Hong Kong"
+173,173,Delft University of Technology,63.8,Netherlands,Delft
+174,175,Pompeu Fabra University,63.7,Spain,Barcelona
+175,175,Universite Federale Toulouse Midi-Pyrenees (ComUE),63.7,France,Toulouse
+176,175,University of Alabama--Birmingham,63.7,United States,"Birmingham, AL"
+177,178,University of Calgary,63.6,Canada,"Calgary, Alberta"
+178,179,RWTH Aachen University,63.2,Germany,Aachen
+179,180,Newcastle University,63,United Kingdom,"Newcastle upon Tyne, Tyne and Wear"
+180,181,Karlsruhe Institute of Technology,62.9,Germany,Karlsruhe
+181,182,Technical University of Dresden,62.7,Germany,Dresden
+182,183,Autonomous University of Madrid,62.6,Spain,Madrid
+183,183,Tel Aviv University,62.6,Israel,Tel Aviv
+184,183,University of Lausanne,62.6,Switzerland,Lausanne
+185,186,Aalto University,62.4,Finland,Esbo
+186,186,Boğaziçi University,62.4,Turkey,Istanbul
+187,186,National Taiwan University,62.4,Taiwan,Taipei
+188,186,University of Pisa,62.4,Italy,Pisa
+189,190,Curtin University of Technology,62.3,Australia,"Bentley, Western Australia"
+190,190,Florida State University,62.3,United States,"Tallahassee, FL"
+191,190,Languedoc-Roussillon Universites (ComUE),62.3,France,Montpellier
+192,190,Tufts University,62.3,United States,"Medford, MA"
+193,190,Université Libre de Bruxelles,62.3,Belgium,Brussels
+194,195,Sungkyunkwan University,62.2,South Korea,Seoul
+195,196,Maastricht University,62.1,Netherlands,Maastricht
+196,196,University of Cincinnati,62.1,United States,"Cincinnati, OH"
+197,198,University of Ottawa,61.9,Canada,"Ottawa, Ontario"
+198,198,University of Technology Sydney,61.9,Australia,"Ultimo, New South Wales"
+199,200,Hong Kong Polytechnic University,61.8,Hong Kong,"Kowloon, Hong Kong"
+200,200,Northeastern University,61.8,United States,"Boston, MA"
+201,200,University of Vienna,61.8,Austria,Vienna
+202,200,University of Witwatersrand,61.8,South Africa,Johannesburg
+203,204,Scuola Normale Superiore di Pisa,61.7,Italy,Pisa
+204,204,University of Naples Federico II,61.7,Italy,Naples
+205,204,University of Würzburg,61.7,Germany,Würzburg
+206,207,Royal Institute of Technology,61.6,Sweden,Stockholm
+207,208,Johannes Gutenberg University of Mainz,61.5,Germany,Mainz
+208,208,Sun Yat-sen University,61.5,China,"Guangzhou, Guangdong"
+209,210,Charles University in Prague,61.4,Czech Republic,Prague 1
+210,210,Durham University,61.4,United Kingdom,"Durham, Durham"
+211,210,Lancaster University,61.4,United Kingdom,Lancaster
+212,213,Johann Wolfgang Goethe University Frankfurt am Main,61.3,Germany,Frankfurt am Main
+213,214,Dartmouth College,61.2,United States,"Hanover, NH"
+214,214,University of Antwerp,61.2,Belgium,Antwerp
+215,214,University of Lisbon,61.2,Portugal,Lisbon
+216,217,University of Illinois--Chicago,61.1,United States,"Chicago, IL"
+217,217,University of Tennessee,61.1,United States,"Knoxville, TN"
+218,217,University of Waterloo,61.1,Canada,"Waterloo, Ontario"
+219,220,Iowa State University,61,United States,"Ames, IA"
+220,220,University of Oregon,61,United States,"Eugene, OR"
+221,222,Hebrew University of Jerusalem,60.9,Israel,Jerusalem
+222,223,University of Notre Dame,60.8,United States,"Notre Dame, IN"
+223,224,Queensland University of Technology,60.7,Australia,"Brisbane, Queensland"
+224,224,University of Rome Tor Vergata,60.7,Italy,Rome
+225,226,University of Strasbourg,60.6,France,Strasbourg
+226,227,Macquarie University,60.5,Australia,"North Ryde, New South Wales"
+227,227,University College Dublin,60.5,Ireland,Dublin 4
+228,227,University of Aberdeen,60.5,United Kingdom,"Aberdeen, Scotland"
+229,227,University of Florence,60.5,Italy,Florence
+230,227,University of Turin,60.5,Italy,Turin
+231,232,Medical University of Vienna,60.4,Austria,Vienna
+232,232,North Carolina State University--Raleigh,60.4,United States,"Raleigh, NC"
+233,232,University of Malaya,60.4,Malaysia,"Kuala Lumpur, Kuala Lumpur"
+234,235,University of Leicester,60.3,United Kingdom,Leicester
+235,235,University of Miami,60.3,United States,"Coral Gables, FL"
+236,237,University of Otago,60.2,New Zealand,Dunedin
+237,237,University of Trento,60.2,Italy,Trento
+238,237,University of Valencia,60.2,Spain,Valencia
+239,240,Trinity College Dublin,59.9,Ireland,Dublin 2
+240,240,University of Erlangen Nuremberg,59.9,Germany,Erlangen
+241,242,Griffith University,59.8,Australia,"Nathan, Queensland"
+242,242,Osaka University,59.8,Japan,"Suita, Osaka"
+243,244,Aalborg University,59.7,Denmark,Aalborg
+244,245,Huazhong University of Science and Technology,59.6,China,"Wuhan, Hubei"
+245,245,University of Cologne,59.6,Germany,Köln
+246,247,Deakin University,59.5,Australia,"Burwood, Victoria"
+247,247,University of Wollongong,59.5,Australia,"Wollongong, New South Wales"
+248,249,Harbin Institute of Technology,59.4,China,"Harbin, Heilongjiang"
+249,250,Brandeis University,59.3,United States,"Waltham, MA"
+250,250,University of Pavia,59.3,Italy,Pavia
+251,252,Korea Advanced Institute of Science and Technology,59.2,South Korea,Daejeon
+252,253,University of New Mexico,59.1,United States,"Albuquerque, NM"
+253,253,Virginia Tech,59.1,United States,"Blacksburg, VA"
+254,255,George Washington University,59,United States,"Washington, DC"
+255,255,Tohoku University,59,Japan,"Aoba-ku, Sendai, Miyagi"
+256,257,University of Maryland--Baltimore,58.9,United States,"Baltimore, MD"
+257,258,Technion Israel Institute of Technology,58.8,Israel,Haifa
+258,259,Free University of Brussels,58.6,Belgium,Elsene
+259,259,London School of Economics and Political Science,58.6,United Kingdom,London
+260,259,University of York,58.6,United Kingdom,York
+261,262,National and Kapodistrian University of Athens,58.5,Greece,Athens
+262,262,University of Kiel,58.5,Germany,Kiel
+263,262,University of Victoria,58.5,Canada,"Victoria, British Columbia"
+264,262,Yeshiva University,58.5,United States,"New York, NY"
+265,266,Colorado State University,58.4,United States,"Fort Collins, CO"
+266,266,M. V. Lomonosov Moscow State University,58.4,Russia,Moscow
+267,266,Oregon State University,58.4,United States,"Corvallis, OR"
+268,266,University at Buffalo--SUNY,58.4,United States,"Buffalo, NY"
+269,266,University of St. Andrews,58.4,United Kingdom,"Fife, Scotland"
+270,271,James Cook University,58.3,Australia,"Townsville City, Queensland"
+271,271,Korea University,58.3,South Korea,Seoul
+272,273,University of Texas--Dallas,58.1,United States,"Richardson, TX"
+273,274,Universite Paris Saclay,58,France,Saint-Aubin
+274,274,University of Newcastle,58,Australia,"Callaghan, New South Wales"
+275,276,University of Milan - Bicocca,57.9,Italy,Milan
+276,276,University of Münster,57.9,Germany,Münster
+277,276,Western University,57.9,Canada,"London, Ontario"
+278,279,Tongji University,57.8,China,Shanghai
+279,279,University of Kansas,57.8,United States,"Lawrence, KS"
+280,279,University of Western Sydney,57.8,Australia,"Penrith, NSW"
+281,282,University of Trieste,57.7,Italy,Trieste
+282,283,Communaute d'Universites et Etablissements d'Aquitaine (ComUE),57.6,France,Bordeaux
+283,283,Norwegian University of Science and Technology,57.6,Norway,Trondheim
+284,285,Wuhan University,57.5,China,"Wuhan, Hubei"
+285,286,University of Genoa,57.4,Italy,Genoa
+286,286,University of Warsaw,57.4,Poland,Warsaw
+287,288,Universite Lille-Nord-de-France (ComUE),57.3,France,Villeneuve-d'Ascq
+288,288,University of Porto,57.3,Portugal,Porto
+289,290,Nagoya University,57.2,Japan,"Chikusa-ku, Nagoya, Aichi"
+290,290,Pontificia University Católica de Chile,57.2,Chile,Santiago
+291,290,Simon Fraser University,57.2,Canada,"Burnaby, British Columbia"
+292,290,University of East Anglia,57.2,United Kingdom,Norwich
+293,290,University of Georgia,57.2,United States,"Athens, GA"
+294,290,University of Nebraska--Lincoln,57.2,United States,"Lincoln, NE"
+295,290,University of Perugia,57.2,Italy,Perugia
+296,290,Washington State University,57.2,United States,"Pullman, WA"
+297,298,Georgetown University,57,United States,"Washington, DC"
+298,298,University at Albany--SUNY,57,United States,"Albany, NY"
+299,298,University of Duisburg-Essen,57,Germany,Essen
+300,301,École Polytechnique,56.9,France,Palaiseau
+301,301,University of Dundee,56.9,United Kingdom,"Dundee, Scotland"
+302,303,Polytechnic University of Milan,56.8,Italy,Milan
+303,303,University of Southern Denmark,56.8,Denmark,Odense M
+304,305,State University of Campinas,56.7,Brazil,"Campinas, São Paulo"
+305,305,Tokyo Institute of Technology,56.7,Japan,"Meguro-ku, Tokyo"
+306,305,University of South Carolina–Columbia,56.7,United States,"Columbia, SC"
+307,307,University of Ulm,56.6,Germany,Ulm
+308,308,Umeå University,56.5,Sweden,Umeå
+309,309,Wayne State University,56.4,United States,"Detroit, MI"
+310,310,University of South Florida,56.3,United States,"Tampa, FL"
+311,311,Southeast University,56.2,China,"Nanjing, Jiangsu"
+312,311,University of Delaware,56.2,United States,"Newark, DE"
+313,311,University of Granada,56.2,Spain,"Granada, Granada"
+314,311,University of Reading,56.2,United Kingdom,"Reading, Berkshire"
+315,315,Indiana University-Purdue University--Indianapolis,56.1,United States,"Indianapolis, IN"
+316,315,Laval University,56.1,Canada,"Québec City, Québec"
+317,315,RMIT University,56.1,Australia,"Melbourne, VIC"
+318,318,University of Canterbury,56,New Zealand,Christchurch
+319,319,Temple University,55.9,United States,"Philadelphia, PA"
+320,319,University of Innsbruck,55.9,Austria,Innsbruck
+321,319,University of Tasmania,55.9,Australia,"Hobart, Tasmania"
+322,322,Dalhousie University,55.8,Canada,"Halifax, Nova Scotia"
+323,322,Ivane Javakhishvili Tbilisi State University,55.8,Georgia,Tbilisi
+324,322,Queen's University Belfast,55.8,United Kingdom,"Belfast, Northern Ireland"
+325,322,University of Tartu,55.8,Estonia,Tartu
+326,325,Kyushu University,55.7,Japan,"Higashi-ku Fukuoka, Fukuoka"
+327,325,Technical University of Berlin,55.7,Germany,Berlin
+328,325,Texas A&M University at Qatar,55.7,Qatar,Education City
+329,325,University of Connecticut,55.7,United States,"Storrs, CT"
+330,329,Stellenbosch University,55.6,South Africa,Stellenbosch
+331,329,Yonsei University,55.6,South Korea,Seoul
+332,331,Vienna University of Technology,55.5,Austria,Vienna
+333,332,Beijing Normal University,55.4,China,Beijing
+334,332,King Saud University,55.4,Saudi Arabia,Riyadh
+335,332,Xiamen University,55.4,China,"Xiamen, Fujian"
+336,335,Pohang University of Science and Technology,55.3,South Korea,"Pohang, Gyeongbuk"
+337,336,Linköping University,55.2,Sweden,Linköping
+338,336,South China University of Technology,55.2,China,"Guangzhou, Guangdong"
+339,338,Eindhoven University of Technology,55.1,Netherlands,Eindhoven
+340,338,Hunan University,55.1,China,"Changsha, Hunan"
+341,338,University of Colorado--Denver,55.1,United States,"Denver, CO"
+342,338,University of KwaZulu Natal,55.1,South Africa,Durban
+343,338,University of Savoie,55.1,France,Chambéry
+344,343,Jagiellonian University,55,Poland,Kraków
+345,343,University of Turku,55,Finland,Turku
+346,343,Xi'an Jiaotong University,55,China,"Xi'an, Shaanxi"
+347,346,Belarusian State University,54.9,Belarus,Minsk
+348,346,Federal University of Rio de Janeiro,54.9,Brazil,Rio de Janeiro
+349,346,Syracuse University,54.9,United States,"Syracuse, NY"
+350,349,Aristotle University of Thessaloniki,54.7,Greece,Thessaloniki
+351,349,Swedish University of Agricultural Sciences,54.7,Sweden,Uppsala
+352,349,University of Kentucky,54.7,United States,"Lexington, KY"
+353,349,Vita-Salute San Raffaele University,54.7,Italy,Milan
+354,353,Baylor University,54.6,United States,"Waco, TX"
+355,353,University of Leipzig,54.6,Germany,Leipzig
+356,355,Complutense University of Madrid,54.5,Spain,Madrid
+357,355,Ruhr University Bochum,54.5,Germany,Bochum
+358,357,University of Siena,54.4,Italy,Siena
+359,358,Heinrich Heine University of Dusseldorf,54.3,Germany,Düsseldorf
+360,358,National Tsing Hua University,54.3,Taiwan,Hsinchu
+361,358,"Royal Holloway, University of London (RHUL)",54.3,United Kingdom,"Egham, Surrey"
+362,358,Swinburne University of Technology,54.3,Australia,"Hawthorn, Victoria"
+363,358,Ulsan National Institute of Science & Technology,54.3,South Korea,Ulsan
+364,358,University of Liège,54.3,Belgium,Liège
+365,364,Beihang University,54.1,China,Beijing
+366,364,University of Mississippi,54.1,United States,"University, MS"
+367,366,Friedrich Schiller University of Jena,54,Germany,Jena
+368,366,University of Johannesburg,54,South Africa,Johannesburg
+369,368,University of Bari,53.9,Italy,Bari
+370,369,Chalmers University of Technology,53.8,Sweden,Gothenburg
+371,369,University of Iceland,53.8,Iceland,Reykjavik
+372,369,University of Ljubljana,53.8,Slovenia,Ljubljana
+373,369,University of Missouri,53.8,United States,"Columbia, MO"
+374,369,University of Twente,53.8,Netherlands,Enschede
+375,374,Nankai University,53.7,China,"Nankai, Tianjin"
+376,374,University of Buenos Aires,53.7,Argentina,"Buenos Aires City, Buenos Aires"
+377,374,University of Eastern Finland,53.7,Finland,Joensuu
+378,374,University of Massachusetts--Worcester,53.7,United States,"Worcester, MA"
+379,378,University of Auvergne,53.6,France,Clermont-Ferrand
+380,379,Queen's University,53.5,Canada,"Kingston, Ontario"
+381,379,Universite de Lorraine,53.5,France,Nancy
+382,379,University of Hawaii--Manoa,53.5,United States,"Honolulu, HI"
+383,382,National Autonomous University of Mexico,53.4,Mexico,"Ciudad de México, Distrito Federal"
+384,383,Hannover Medical School,53.2,Germany,Hannover
+385,383,Louisiana State University--Baton Rouge,53.2,United States,"Baton Rouge, LA"
+386,385,University of Chile,53.1,Chile,Santiago
+387,385,University of Giessen,53.1,Germany,Giessen
+388,385,University of Houston,53.1,United States,"Houston, TX"
+389,388,Central South University,53,China,"Changsha, Hunan"
+390,388,Kansas State University,53,United States,"Manhattan, KS"
+391,388,Medical University of Innsbruck,53,Austria,Innsbruck
+392,388,National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),53,Russia,Moscow
+393,388,Soochow University,53,China,"Suzhou, Jiangsu"
+394,388,University of Manitoba,53,Canada,"Winnipeg, Manitoba"
+395,394,Thomas Jefferson University,52.9,United States,"Philadelphia, PA"
+396,395,China University of Geosciences,52.8,China,"Wuhan, Hubei"
+397,395,University of South Australia,52.8,Australia,"Adelaide, South Australia"
+398,395,University of Tsukuba,52.8,Japan,"Tsukuba, Ibaraki"
+399,398,Medical University of Graz,52.7,Austria,Graz
+400,398,Middle East Technical University,52.7,Turkey,Ankara
+401,398,University of Tampere,52.7,Finland,Tampere
+402,401,Wake Forest University,52.6,United States,"Winston-Salem, NC"
+403,402,Moscow Institute of Physics and Technology,52.5,Russia,"Dolgoprudny, Moscow Region"
+404,402,Tianjin University,52.5,China,Tianjin
+405,402,Virginia Commonwealth University,52.5,United States,"Richmond, VA"
+406,405,Drexel University,52.4,United States,"Philadelphia, PA"
+407,405,University of Oklahoma,52.4,United States,"Norman, OK"
+408,405,University of Tehran,52.4,Iran,Tehran
+409,408,La Trobe University,52.3,Australia,"Melbourne, VIC"
+410,408,Universite Paris-Est (ComUE),52.3,France,Champs-sur-Marne
+411,408,University of Bath,52.3,United Kingdom,Bath
+412,408,University of Nova de Lisboa,52.3,Portugal,Lisbon
+413,412,Hokkaido University,52.2,Japan,"Kita-ku, Sapporo, Hokkaido"
+414,412,National Technical University of Athens,52.2,Greece,Athens
+415,412,University of Coimbra,52.2,Portugal,Coimbra
+416,415,University of the Basque Country,52.1,Spain,"Leioa, Bizkaia"
+417,416,York University,52,Canada,"Toronto, Ontario"
+418,417,Florida International University,51.9,United States,"Miami, FL"
+419,417,Medical University of South Carolina,51.9,United States,"Charleston, SC"
+420,419,University of Alabama,51.8,United States,"Tuscaloosa, AL"
+421,419,University of Belgrade,51.8,Serbia,Belgrade
+422,419,University of Oulu,51.8,Finland,Oulu
+423,419,University of Salerno,51.8,Italy,Fisciano
+424,423,Dortmund University of Technology,51.7,Germany,Dortmund
+425,424,Istanbul Technical University,51.6,Turkey,Istanbul
+426,424,Novosibirsk State University,51.6,Russia,Novosibirsk
+427,424,St George's University of London,51.6,United Kingdom,London
+428,427,Flinders University,51.5,Australia,Bedford Park
+429,427,Quaid I Azam University,51.5,Pakistan,Islamabad
+430,427,Shandong University,51.5,China,"Jinan, Shandong"
+431,427,Waseda University,51.5,Japan,"Shinjuku-ku, Tokyo"
+432,431,University of the Andes Colombia,51.4,Colombia,"Bogotá, DC"
+433,432,University of Minho,51.3,Portugal,Braga
+434,433,University of Tromsø,51.2,Norway,Tromsø
+435,434,Auckland University of Technology,51.1,New Zealand,Auckland
+436,434,Cairo University,51.1,Egypt,Giza
+437,434,Eotvos Lorand University,51.1,Hungary,Budapest
+438,434,George Mason University,51.1,United States,"Fairfax, VA"
+439,434,Hanyang University,51.1,South Korea,Seoul
+440,434,Universidad Tecnica Federico Santa Maria,51.1,Chile,"Valparaiso, Valparaiso"
+441,434,University of Strathclyde,51.1,United Kingdom,"Glasgow, Scotland"
+442,441,University of Pretoria,51,South Africa,Hatfield
+443,441,University of Surrey,51,United Kingdom,Surrey
+444,443,Rush University,50.9,United States,"Chicago, IL"
+445,444,Brunel University,50.8,United Kingdom,"Uxbridge, Middlesex"
+446,444,Dalian University of Technology,50.8,China,"Dalian City, Liaoning"
+447,444,London Business School,50.8,United Kingdom,London
+448,444,Université de Rennes 1,50.8,France,Rennes
+449,444,University of Navarra,50.8,Spain,Pamplona
+450,444,University of Wisconsin--Milwaukee,50.8,United States,"Milwaukee, WI"
+451,450,Texas Tech University,50.7,United States,"Lubbock, TX"
+452,451,Singapore University of Technology & Design,50.6,Singapore,
+453,451,University College Cork,50.6,Ireland,Cork
+454,451,University of Catania,50.6,Italy,Catania
+455,454,East China Normal University,50.5,China,Shanghai
+456,454,Florida Institute of Technology,50.5,United States,"Melbourne, FL"
+457,454,Islamic Azad University,50.5,Iran,Tehran
+458,454,University of Cyprus,50.5,Cyprus,Nicosia
+459,454,University of Santiago of Compostela,50.5,Spain,Santiago de Compostela
+460,459,Federal University of Rio Grande do Sul,50.4,Brazil,"Porto Alegre, Rio Grande do Sul"
+461,459,Philipps University of Marburg,50.4,Germany,Marburg
+462,459,Politecnico di Bari,50.4,Italy,Bari
+463,459,UNESP - Universidade Estadual Paulista,50.4,Brazil,São Paulo
+464,459,University of Regensburg,50.4,Germany,Regensburg
+465,459,University of Texas--Arlington,50.4,United States,"Arlington, TX"
+466,465,Czech Technical University in Prague,50.3,Czech Republic,Prague 6
+467,465,Federal University of Minas Gerais,50.3,Brazil,"Belo Horizonte, Minas Gerais"
+468,465,Roma Tre University,50.3,Italy,Rome
+469,468,University of Wuppertal,50.2,Germany,Wuppertal
+470,469,Sichuan University,50.1,China,"Chengdu, Sichuan"
+471,469,Tulane University,50.1,United States,"New Orleans, LA"
+472,469,University of Guelph,50.1,Canada,"Guelph, Ontario"
+473,472,Bielefeld University,50,Germany,Bielefeld
+474,472,California State University--Fresno,50,United States,"Fresno, CA"
+475,472,China Agricultural University,50,China,Beijing
+476,472,Tilburg University,50,Netherlands,Tilburg
+477,472,University of Fribourg,50,Switzerland,Fribourg
+478,477,Central China Normal University,49.9,China,"Wuhan, Hubei"
+479,477,Georgia State University,49.9,United States,"Atlanta, GA"
+480,477,Southern Methodist University,49.9,United States,"Dallas, TX"
+481,477,University of Central Florida,49.9,United States,"Orlando, FL"
+482,477,University of Potsdam,49.9,Germany,Potsdam
+483,477,University of Vermont,49.9,United States,"Burlington, VT"
+484,483,Carleton University,49.8,Canada,"Ottowa, ON"
+485,483,Swansea University,49.8,United Kingdom,"Swansea, Wales"
+486,485,Beijing Institute of Technology,49.7,China,Beijing
+487,485,Saint Petersburg State Polytechnic University,49.7,Russia,St. Petersburg
+488,485,Versailles Saint-Quentin-en-Yvelines University (UVSQ),49.7,France,Versailles
+489,485,Victoria University,49.7,Australia,"Footscray, VIC"
+490,489,Polytechnic University of Turin,49.6,Italy,Turin
+491,489,University of Jyväskylä,49.6,Finland,Jyväskylä
+492,489,University of Mons,49.6,Belgium,Mons
+493,489,University of Udine,49.6,Italy,Udine
+494,493,Liverpool John Moores University (LJMU),49.5,United Kingdom,Liverpool
+495,493,Oklahoma State University,49.5,United States,"Stillwater, OK"
+496,495,AgroParisTech,49.4,France,Paris
+497,495,University of Konstanz,49.4,Germany,Konstanz
+498,497,College of William and Mary,49.3,United States,"Williamsburg, VA"
+499,497,Darmstadt University of Technology,49.3,Germany,Darmstadt
+500,497,Jilin University,49.3,China,"Changchun, Jilin"
+501,497,Polytechnic University of Catalonia,49.3,Spain,Barcelona
+502,497,University of Split,49.3,Croatia,Split
+503,502,Catholic University of Sacred Heart,49.2,Italy,Milan
+504,503,Colorado School of Mines,49.1,United States,"Golden, CO"
+505,503,Parthenope University Naples,49.1,Italy,Napoli
+506,503,University of Oviedo,49.1,Spain,"Oviedo, Asturias"
+507,503,University of Texas--San Antonio,49.1,United States,"San Antonio, TX"
+508,507,University of Electronic Science and Technology of China,49,China,"Chengdu, Sichuan"
+509,508,Polytechnic University of Valencia,48.8,Spain,Valencia
+510,509,Tomsk State University,48.7,Russia,Tomsk
+511,509,Universitat Siegen,48.7,Germany,Victories
+512,509,University of Rovira i Virgili,48.7,Spain,Tarragona
+513,509,University of Stuttgart,48.7,Germany,Stuttgart
+514,513,Indian Institute of Technology Bombay,48.6,India,"Mumbai, Maharashtra"
+515,513,University of Calabria,48.6,Italy,Arcavacata di Rende
+516,515,Victoria University of Wellington,48.5,New Zealand,Wellington
+517,516,Keio University,48.4,Japan,"Minato-ku, Tokyo"
+518,516,Universiti Teknologi Malaysia,48.4,Malaysia,Johor
+519,516,University of Plymouth,48.4,United Kingdom,"Plymouth, Devon"
+520,519,Palacky University Olomouc,48.3,Czech Republic,Olomouc
+521,519,Rensselaer Polytechnic Institute,48.3,United States,"Troy, NY"
+522,519,West University of Timisoara,48.3,Romania,Timisoara
+523,522,Chulalongkorn University,48.2,Thailand,Bangkok
+524,522,Mahidol University,48.2,Thailand,"Salaya, Nakhon Pathom"
+525,522,Massey University,48.2,New Zealand,Palmerston North
+526,522,Tokyo Metropolitan University,48.2,Japan,"Hachioji-shi, Tokyo"
+527,522,University of Ferrara,48.2,Italy,Ferrara
+528,522,University of Seville,48.2,Spain,Seville
+529,528,University of Massachusetts--Boston,48.1,United States,"Boston, MA"
+530,528,University of Verona,48.1,Italy,Verona
+531,530,Indian Institute of Science,48,India,Bangalore
+532,530,Panjab University,48,India,Chandigarh
+533,532,Hacettepe University,47.9,Turkey,Ankara
+534,532,Universidade Federal do ABC (UFABC),47.9,Brazil,"Santo Andre, Sao Paulo"
+535,532,University of Bremen,47.9,Germany,Bremen
+536,532,University of New Hampshire,47.9,United States,"Durham, NH"
+537,536,Aveiro University,47.8,Portugal,Aveiro
+538,536,Boston College,47.8,United States,"Chestnut Hill, MA"
+539,536,Wuhan University of Technology,47.8,China,"Wuhan, Hubei"
+540,539,Saint Petersburg State University,47.7,Russia,St. Petersburg
+541,539,University of Hannover,47.7,Germany,Hannover
+542,541,American University of Beirut,47.6,Lebanon,Beirut
+543,541,Kobe University,47.6,Japan,"Nada-ku, Kobe, Hyogo"
+544,541,University of Saskatchewan,47.6,Canada,"Saskatoon, Saskatchewan"
+545,544,University of Louisville,47.5,United States,"Louisville, KY"
+546,545,Aga Khan University,47.4,Pakistan,Karachi
+547,545,University of Puerto Rico--Mayaguez,47.4,United States,"Mayaguez, PR"
+548,547,Izmir Yuksek Teknoloji Enstitusu,47.3,Turkey,Urlla
+549,547,Medical College of Wisconsin,47.3,United States,"Milwaukee, WI"
+550,547,Montana State University--Bozeman,47.3,United States,"Bozeman, MT"
+551,547,Saarland University,47.3,Germany,Saarbrücken
+552,547,Universidad de Cantabria,47.3,Spain,"Santander, Cantabria"
+553,547,University of Parma,47.3,Italy,Parma
+554,547,University of Zaragoza,47.3,Spain,"Zaragoza, Aragon"
+555,553,Ben-Gurion University of the Negev,47.2,Israel,Beer-Sheva
+556,553,Kyung Hee University,47.2,South Korea,Seoul
+557,553,Universite Bourgogne Franche-Comte (ComUE),47.2,France,Besancon
+558,556,University of Science & Technology Beijing,47.1,China,Beijing
+559,557,Kyungpook National University,46.9,South Korea,Daegu
+560,557,Loughborough University,46.9,United Kingdom,"Loughborough, Leicestershire"
+561,557,NUI Galway,46.9,Ireland,Galway
+562,557,University of Casablanca Hassan 2,46.9,Morocco,"Casablanca, Morocco"
+563,557,University of Modena and Reggio Emilia,46.9,Italy,Modena
+564,557,University of Portsmouth,46.9,United Kingdom,Portsmouth
+565,563,Comenius University in Bratislava,46.8,Slovakia,Bratislava
+566,563,Heriot Watt University,46.8,United Kingdom,"Edinburgh, Scotland"
+567,563,Shanghai University,46.8,China,Shanghai
+568,563,University of Crete,46.8,Greece,"Rethymnon, Crete"
+569,567,Babes-Bolyai University,46.7,Romania,Cluj-Napoca
+570,567,Chongqing University,46.7,China,Chongqing
+571,567,University of Bodenkultur Wien,46.7,Austria,Wien
+572,567,University of Ioannina,46.7,Greece,Ioannina
+573,571,Bilkent University,46.6,Turkey,Ankara
+574,571,Lanzhou University,46.6,China,"Lanzhou, Gansu"
+575,573,University of Palermo,46.5,Italy,Palermo
+576,574,National Research University - Higher School of Economics,46.4,Russia,Moscow
+577,575,University of Macau,46.3,Macau,Taipa
+578,575,University of Zagreb,46.3,Croatia,Zagreb
+579,577,Masaryk University,46.2,Czech Republic,Brno
+580,577,Okayama University,46.2,Japan,"Kita-ku, Okayama City, Okayama"
+581,577,Universite de Bordeaux,46.2,France,Talence
+582,577,University of Graz,46.2,Austria,Graz
+583,581,Federal University of Santa Catarina,46.1,Brazil,Florianópolis
+584,581,Federal University of São Paulo,46.1,Brazil,São Paulo
+585,581,Université du Québec à Montréal,46.1,Canada,"Montréal, Québec"
+586,584,Nanjing University of Information Science & Technology,46,China,"Nanjing, Jiangsu"
+587,584,Polytechnic University of Madrid,46,Spain,Madrid
+588,584,Universitat de les Illes Balears,46,Spain,"Palma de Mallorca, Islas Baleares"
+589,584,Universiti Sains Malaysia,46,Malaysia,Penang
+590,584,University of Kent,46,United Kingdom,"Canterbury, Kent"
+591,589,Hong Kong Baptist University,45.9,Hong Kong,
+592,589,Northwestern Polytechnical University,45.9,China,"Xi'an, Shaanxi"
+593,591,Bocconi University,45.8,Italy,Milano
+594,591,Hiroshima University,45.8,Japan,"Higashi-Hiroshima, Hiroshima"
+595,591,Sharif University of Technology,45.8,Iran,Tehran
+596,591,Vilnius University,45.8,Lithuania,Vilnius
+597,595,East China University of Science and Technology,45.7,China,Shanghai
+598,595,Isfahan University of Technology,45.7,Iran,Isfahan
+599,595,National Central University,45.7,Taiwan,"Jhongli City, Taoyuan County"
+600,595,University of Seoul,45.7,South Korea,Seoul
+601,599,Beijing Jiaotong University,45.6,China,Beijing
+602,599,Beijing University of Chemical Technology,45.6,China,Beijing
+603,599,Edith Cowan University,45.6,Australia,"Joondalup, WA"
+604,599,Lappeenranta University of Technology,45.6,Finland,Lappeenranta
+605,599,Rio de Janeiro State University,45.6,Brazil,Rio de Janeiro
+606,599,San Diego State University,45.6,United States,"San Diego, CA"
+607,605,China University of Petroleum,45.5,China,"Qingdao, Shandong"
+608,605,National Cheng Kung University,45.5,Taiwan,Tainan City
+609,605,University of Texas Medical Branch--Galveston,45.5,United States,"Galveston, TX"
+610,608,King Fahd University of Petroleum and Minerals (KFUPM),45.4,Saudi Arabia,Dhahran
+611,609,Kent State University,45.3,United States,"Kent, OH"
+612,609,West Virginia University,45.3,United States,"Morgantown, WV"
+613,611,Makerere University,45.2,Uganda,Kampala
+614,611,Martin Luther University of Halle-Wittenberg,45.2,Germany,Halle (Saale)
+615,611,Universiti Putra Malaysia,45.2,Malaysia,"Serdang, Selangor"
+616,611,University of Essex,45.2,United Kingdom,"Colchester, Essex"
+617,611,Warsaw University of Technology,45.2,Poland,Warsaw
+618,616,University of Missouri--Kansas City,45.1,United States,"Kansas City, MO"
+619,616,University of Ulsan,45.1,South Korea,Ulsan
+620,618,Addis Ababa University,45,Ethiopia,Addis Ababa
+621,618,Bar-Ilan University,45,Israel,Ramat Gan
+622,618,National University La Plata,45,Argentina,Buenos Aires
+623,618,University of Basilicata,45,Italy,Potenza
+624,618,University of Bayreuth,45,Germany,Bayreuth
+625,618,University of Luxembourg,45,Luxembourg,Esch-sur-Alzette
+626,624,Ankara University,44.9,Turkey,Ankara
+627,624,Australian Catholic University,44.9,Australia,Fitzroy
+628,624,Copenhagen Business School,44.9,Denmark,Frederiksberg
+629,624,Nanjing University of Science & Technology,44.9,China,"Nanjing, Jiangsu"
+630,624,Renmin University of China,44.9,China,Beijing
+631,624,University of Rostock,44.9,Germany,Rostock
+632,630,Chonnam National University,44.8,South Korea,"Gwangju, Jeolla"
+633,630,Norwegian University of Life Sciences,44.8,Norway,Ås
+634,630,University Hohenheim,44.8,Germany,Stuttgart
+635,630,University of Salento,44.8,Italy, Lecce
+636,630,Visva Bharati University,44.8,India,Santiniketan
+637,635,AGH University of Science & Technology,44.7,Poland,Kraków
+638,635,University of Debrecen,44.7,Hungary,Debrecen
+639,637,Murdoch University,44.6,Australia,Murdoch
+640,638,Universiti Kebangsaan Malaysia (UKM),44.5,Malaysia,Bangi Selangor
+641,638,University of La Laguna,44.5,Spain,La Laguna
+642,638,University of Lubeck,44.5,Germany,Lübeck
+643,641,Pusan National University,44.4,South Korea,Busan
+644,641,Rochester Institute of Technology,44.4,United States,"Rochester, NY"
+645,641,University of Cagliari,44.4,Italy,Cagliari
+646,641,University of North Texas,44.4,United States,"Denton, TX"
+647,645,Benemerita Universidad Autonoma de Puebla,44.3,Mexico,Puebla
+648,645,Centre-Val de Loire (ComUE),44.3,France,Orleans
+649,645,North West University - South Africa,44.3,South Africa,Potchefstroom
+650,645,Pontificia Universidad Javeriana,44.3,Colombia,"Bogotá, DC"
+651,645,University of Canberra,44.3,Australia,"Canberra, Australian Capital Territory"
+652,645,University of Qatar,44.3,Qatar,"Doha, Qatar"
+653,651,Khalifa University of Science & Technology,44.2,United Arab Emirates,"Abu Dhabi, UAE"
+654,651,St. Louis University,44.2,United States,"St. Louis, MO"
+655,651,University of Salamanca,44.2,Spain,Salamanca
+656,654,Indian Institute of Technology Delhi,44.1,India,New Delhi
+657,654,Indian Institute of Technology Madras,44.1,India,"Chennai, Tamil Nadu"
+658,654,Open University,44.1,United Kingdom,"Milton Keynes, Buckinghamshire"
+659,657,Memorial University of Newfoundland,44,Canada,"St. John's, NL"
+660,657,Universitat de Girona,44,Spain,Girona
+661,657,University of Sofia,44,Bulgaria,Sofia
+662,660,Graz University of Technology,43.9,Austria,Graz
+663,660,University of Maryland--Baltimore County,43.9,United States,"Baltimore, MD"
+664,662,CUNY--City College,43.8,United States,"New York, NY"
+665,663,City University London,43.7,United Kingdom,London
+666,663,Mansoura University,43.7,Egypt,Mansoura
+667,663,Nanjing Agricultural University,43.7,China,"Nanjing, Jiangsu"
+668,663,University of Brescia,43.7,Italy,Brescia
+669,667,Ain Shams University,43.6,Egypt,Cairo
+670,667,University of California--Merced,43.6,United States,"Merced, CA"
+671,669,Clemson University,43.5,United States,"Clemson, SC"
+672,669,Northumbria University,43.5,United Kingdom,Newcastle upon Tyne
+673,671,Concordia University,43.4,Canada,"Montréal, Québec"
+674,671,Northern Illinois University,43.4,United States,"DeKalb, IL"
+675,671,Ohio University,43.4,United States,"Athens, OH"
+676,671,Universite Cote d'Azur (ComUE),43.4,France,Nice
+677,671,University of Arkansas,43.4,United States,"Fayetteville, AR"
+678,676,Tehran University of Medical Sciences,43.3,Iran,Tehran
+679,676,University of Alaska--Fairbanks,43.3,United States,"Fairbanks, AK"
+680,678,Amirkabir University of Technology (AUT),43.2,Iran,Tehran
+681,678,Auburn University,43.2,United States,"Auburn, AL"
+682,678,Babol Noshirvani University of Technology,43.2,Iran,Babol
+683,678,Utah State University,43.2,United States,"Logan, UT"
+684,682,Illinois Institute of Technology,43.1,United States,"Chicago, IL"
+685,682,Sejong University,43.1,South Korea,Seoul
+686,682,Semmelweis University,43.1,Hungary,Budapest
+687,685,Shenzhen University,43,China,"Shenzhen, Guangdong"
+688,685,Southern University of Science & Technology,43,China,"Shenzhen, Guangdong"
+689,685,University of Mannheim,43,Germany,Mannheim
+690,688,Jordan University of Science & Technology,42.9,Jordan,Irbid
+691,688,Northern Arizona University,42.9,United States,"Flagstaff, AZ"
+692,688,Orebro University,42.9,Sweden,Orebro
+693,688,University of Szeged,42.9,Hungary,Szeged
+694,692,American University,42.8,United States,"Washington, DC"
+695,692,Braunschweig University of Technology,42.8,Germany,Braunschweig
+696,692,Brigham Young University--Provo,42.8,United States,"Provo, UT"
+697,692,Ewha Womans University,42.8,South Korea,Seoul
+698,696,University of Brighton,42.7,United Kingdom,Brighton
+699,696,University of Wyoming,42.7,United States,"Laramie, WY"
+700,698,Fuzhou University,42.6,China,"Fuzhou, Fujian"
+701,698,INSEAD Business School,42.6,France,Fontainebleau
+702,698,Nanjing University of Aeronautics and Astronautics,42.6,China,"Nanjing, Jiangsu"
+703,698,Universita della Campania Vanvitelli,42.6,Italy,Caserta
+704,702,Aston University,42.5,United Kingdom,Birmingham
+705,702,Chonbuk National University,42.5,South Korea,"Jeonju, Jeollabuk"
+706,702,Huazhong Agricultural University,42.5,China,"Wuhan, Hubei"
+707,702,University of Urbino,42.5,Italy,Urbino
+708,706,Istanbul University,42.4,Turkey,Istanbul
+709,706,Kwame Nkrumah University Science & Technology,42.4,Ghana,Kumasi
+710,706,"Rutgers, The State University of New Jersey--Newark",42.4,United States,"Newark, NJ"
+711,706,Universidad Nacional de Colombia,42.4,Colombia,"Bogotá, DC"
+712,710,Charles Sturt University,42.3,Australia,"Wagga Wagga, NSW"
+713,710,Marche Polytechnic University,42.3,Italy,Ancona
+714,710,New Mexico State University,42.3,United States,"Las Cruces, NM"
+715,710,University of Brasilia,42.3,Brazil,Brasília
+716,710,University of the Republic - Uruguay,42.3,Uruguay,Montevideo
+717,715,Jiangnan University,42.2,China,"Wuxi, Jiangsu"
+718,715,Mohammed V University,42.2,Morocco,Rabat
+719,715,University of Camerino,42.2,Italy,Camerino
+720,715,University of Haifa,42.2,Israel,Haifa
+721,719,Montpellier SupAgro,42.1,France,Montpellier
+722,719,National Chiao Tung University,42.1,Taiwan,Hsinchu
+723,719,Universite de Brest,42.1,France,Brittany
+724,722,Cranfield University,42,United Kingdom,"Cranfield, Bedfordshire"
+725,722,Indian Institute of Technology Kharagpur,42,India,Kharagpur
+726,722,Shinshu University,42,Japan,"Matsumoto City, Nagano Prefecture"
+727,722,University of Sherbrooke,42,Canada,"Sherbrooke, Québec"
+728,722,University of the Western Cape,42,South Africa,Belville
+729,727,University of Denver,41.9,United States,"Denver, CO"
+730,727,University of Waikato,41.9,New Zealand,Hamilton
+731,729,Bangor University,41.8,United Kingdom,"Bangor, Gwynedd"
+732,729,CentraleSupelec,41.8,France,Chatenay-Malabry
+733,729,University of New England,41.8,Australia,Armidale NSW
+734,732,Liverpool School of Tropical Medicine,41.7,United Kingdom,"Liverpool, Lancashire"
+735,733,Aberystwyth University,41.6,United Kingdom,Aberystwyth
+736,733,Brandenburg University of Technology Cottbus,41.6,Germany,Cottbus
+737,733,University of Ibadan,41.6,Nigeria,"Ibadan, Oyo State"
+738,736,University of Montana,41.5,United States,"Missoula, MT"
+739,737,Chiba University,41.4,Japan,"Chiba-shi, Chiba"
+740,738,Universidad Carlos III de Madrid,41.2,Spain,Madrid
+741,739,Indian Institute of Science Education & Research (IISER) - Pune,41.1,India,Pashan
+742,739,Loyola University Chicago,41.1,United States,"Chicago, IL"
+743,739,Nanjing University of Technology,41.1,China,"Nanjing, Jiangsu"
+744,739,Tokyo Medical and Dental University,41.1,Japan,"Bunkyo-ku, Tokyo"
+745,743,Carl von Ossietzky Universitat Oldenburg,41,Germany,Oldenburg
+746,743,China University of Mining,41,China,"Xuzhou, Jiangsu"
+747,745,Michigan Technological University,40.9,United States,"Houghton, MI"
+748,745,University of Nevada--Las Vegas,40.9,United States,"Las Vegas, NV"
+749,747,Indian Institute of Technology (IIT) - Roorkee,40.8,India,"Roorkee, Uttarakhand"
+750,747,Koc University - Turkey,40.8,Turkey,Istanbul
+751,747,Lulea University of Technology,40.8,Sweden,Lulea
+752,750,Birkbeck University London,40.7,United Kingdom,London
+753,750,University of Marrakech Cadi Ayyad,40.7,Morocco,"Marrakech, Morocco"
+754,752,Indian Institute of Technology Kanpur,40.6,India,"Kanpur, Uttar Pradesh"
+755,752,ITMO University,40.6,Russia,St. Petersburg
+756,752,Southwest Jiaotong University,40.6,China,"Chengdu, Sichuan"
+757,755,Gwangju Institute of Science and Technology,40.5,South Korea,"Gwangju, Jeolla"
+758,755,National Taiwan University of Science and Technology,40.5,Taiwan,Taipei City
+759,755,Northeastern University - China,40.5,China,Shenyang
+760,755,Scuola Superiore Sant'Anna,40.5,Italy,Pisa
+761,759,Augusta University,40.4,United States,"Augusta, GA"
+762,759,California State University--Fullerton,40.4,United States,"Fullerton, CA"
+763,759,National Institute for Applied Sciences - Lyon,40.4,France, Villeurbanne
+764,759,Old Dominion University,40.4,United States,"Norfolk, VA"
+765,763,Beijing University of Technology,40.3,China,Beijing
+766,763,Ernst Moritz Arndt Universitat Greifswald,40.3,Germany,Greifswald
+767,763,Polytechnic University of Bucharest,40.3,Romania,Bucharest
+768,763,University of Delhi,40.3,India,New Delhi
+769,763,University of Nevada--Reno,40.3,United States,"Reno, NV"
+770,763,University of Patras,40.3,Greece,Rio Achaia
+771,769,Indian Institute of Science Education & Research (IISER) - Kolkata,40.2,India,Nadia
+772,769,Normandie Universite,40.2,France,Caen
+773,769,Otto von Guericke University,40.2,Germany,Magdeburg
+774,769,Universite Confederale Leonard de Vinci,40.2,France,Chasseneuil-du-Poitou
+775,769,University of Idaho,40.2,United States,"Moscow, ID"
+776,774,Howard University,40.1,United States,"Washington, DC"
+777,774,Universidad Autonoma de San Luis Potosi,40.1,Mexico,"Mexico City, San Luis Potosi"
+778,774,University of Eastern Piedmont Amedeo Avogadro,40.1,Italy,Vercelli
+779,774,University of Rhode Island,40.1,United States,"Kingston, RI"
+780,778,Alexandria University,40,Egypt,Alexandria
+781,778,Universitat Jaume I,40,Spain,Castellón de la Plana
+782,780,heSam Universite,39.8,France,Paris
+783,780,Johannes Kepler University of Linz,39.8,Austria,Linz
+784,780,University of Vigo,39.8,Spain,"Vigo, Pontevedra"
+785,783,Kazan Federal University,39.7,Russia,Kazan
+786,783,Universidade Federal de Juiz de Fora,39.7,Brazil,Juiz de Fora
+787,783,Universitat Ramon Llull,39.7,Spain,Barcelona
+788,786,Aligarh Muslim University,39.6,India,Aligarh
+789,786,Hefei University of Technology,39.6,China,"Hefei, Anhui"
+790,786,Yildiz Teknik University,39.6,Turkey,Istanbul
+791,789,Hasselt University,39.5,Belgium,"Hasselt, Limburg"
+792,789,Missouri University of Science & Technology,39.5,United States,"Rolla, MO"
+793,789,University of Insubria,39.5,Italy,Varese
+794,789,University of Messina,39.5,Italy,Messina
+795,789,Yeungnam University,39.5,South Korea,"Gyeongsan, Gyeongbuk"
+796,794,Ocean University of China,39.4,China,"Quingdao, Shandong"
+797,794,Salzburg University,39.4,Austria,Salzburg
+798,794,University of Concepción,39.4,Chile,Concepcion
+799,794,Zhengzhou University,39.4,China,"Zhengzhou, Henan"
+800,798,Xidian University,39.3,China,"Xi'an, Shaanxi"
+801,799,Adam Mickiewicz University,39.2,Poland,Poznań
+802,799,Lehigh University,39.2,United States,"Bethlehem, PA"
+803,799,University of Hull,39.2,United Kingdom,Hull
+804,799,University of Texas--El Paso,39.2,United States,"El Paso, TX"
+805,803,New Jersey Institute of Technology,39.1,United States,"Newark, NJ"
+806,803,New York Medical College,39.1,United States,"Valhalla, NY"
+807,803,Royal College of Surgeons - Ireland,39.1,Ireland,Dublin
+808,803,United Arab Emirates University,39.1,United Arab Emirates,"Al-Ain, UAE"
+809,803,University of Murcia,39.1,Spain,Murcia
+810,808,Binghamton University--SUNY,39,United States,"Binghamton, NY"
+811,808,Donghua University,39,China,Shanghai
+812,810,All India Institute of Medical Sciences,38.9,India,New Delhi
+813,810,Federal University of Paraná,38.9,Brazil,Curitiba
+814,810,Nanjing Medical University,38.9,China,"Gulou, Nanjing"
+815,810,Tarbiat Modares University,38.9,Iran,Tehran
+816,810,Universidade Federal de Pelotas,38.9,Brazil,Pelotas
+817,815,Cukurova University,38.8,Turkey,Adana
+818,815,University of North Carolina--Charlotte,38.8,United States,"Charlotte, NC"
+819,817,Maynooth University,38.7,Ireland,Maynooth
+820,817,Universite de Haute-Alsace (UHA),38.7,France,Mulhouse
+821,819,China Medical University Taiwan,38.4,Taiwan,Taichung
+822,819,Mississippi State University,38.4,United States,"Mississippi State University, MS"
+823,819,Nanjing Normal University,38.4,China,"Nanjing, Jiangsu"
+824,819,"Northwest University, Xi'an",38.4,China,"Xi'an, Shaanxi"
+825,819,Universidade Federal de Sao Joao del-Rei,38.4,Brazil,Sao Joao del-Rei
+826,819,University of Akron,38.4,United States,"Akron, OH"
+827,819,University of Alabama--Huntsville,38.4,United States,"Huntsville, AL"
+828,826,Federal University of Sao Carlos,38.3,Brazil,"São Carlos, SP"
+829,827,Hohai University,38.2,China,"Nanjing, Jiangsu"
+830,827,Konkuk University,38.2,South Korea,Seoul
+831,827,Mersin University,38.2,Turkey,Mersin
+832,827,National Polytechnic Institute,38.2,Mexico,Mexico City
+833,827,National Sun Yat-Sen University,38.2,Taiwan,Kaohsiung
+834,827,University of Maribor,38.2,Slovenia,Maribor
+835,833,Federal University of Pernambuco,38.1,Brazil,"Recife, PE"
+836,833,National Yang-Ming University,38.1,Taiwan,Taipei
+837,833,ShanghaiTech University,38.1,China,"Pudong, Shanghai"
+838,833,University of Wrocław,38.1,Poland,Wrocław
+839,837,Beijing University of Posts,38,China,Beijing
+840,837,Dublin City University,38,Ireland,Dublin
+841,837,Tuscia University,38,Italy,Viterbo
+842,837,University of Neuchatel,38,Switzerland,Neuchâtel
+843,841,Charles Darwin University,37.9,Australia,"Casuarina, NT"
+844,841,Creighton University,37.9,United States,"Omaha, NE"
+845,841,Northwest A&F University - China,37.9,China,"Yangling, Shaanxi"
+846,841,Universidade Federal do Ceara,37.9,Brazil,"Fortaleza, Ceara"
+847,841,University of Stirling,37.9,United Kingdom,Stirling
+848,841,University of Tabriz,37.9,Iran,"Tabriz, East Azerbaijan"
+849,847,California Polytechnic State University--San Luis Obispo,37.8,United States,"San Luis Obispo, CA"
+850,847,Harbin Engineering University,37.8,China,"Harbin, Heilongjiang"
+851,847,Texas A&M Health Science Center,37.8,United States,"San Antonio, TX"
+852,850,Banaras Hindu University,37.7,India,"Varanasi, Uttar Pradesh"
+853,850,Sabanci University,37.7,Turkey,"Tuzla, Istanbul"
+854,850,Shiraz University,37.7,Iran,Shiraz
+855,850,Universidad Costa Rica,37.7,Costa Rica,"San Pedro Montes de Oca, San Jose"
+856,850,University of Texas--Rio Grande Valley,37.7,United States,"Edinburg, TX"
+857,855,Tecnologico de Monterrey,37.6,Mexico,Monterrey
+858,855,Zhejiang University of Technology,37.6,China,"Hangzhou, Zhejiang"
+859,857,Universidad de Antioquia,37.5,Colombia,Medellín
+860,857,Universidad de Cordoba,37.5,Spain,Cordoba
+861,857,Universidad de Malaga,37.5,Spain,Malaga
+862,860,Bohai University,37.3,China,Jinzhou
+863,860,University of Limerick,37.3,Ireland,Limerick
+864,860,University of Sassari,37.3,Italy,Sassari
+865,860,University of Ulster,37.3,United Kingdom,Coleraine
+866,864,Gaziantep University,37.2,Turkey,Gaziantep
+867,864,Keele University,37.2,United Kingdom,Staffordshire
+868,864,Taipei Medical University,37.2,Taiwan,Taipei City
+869,867,Mashhad University Medical Science,37.1,Iran,Mahshad
+870,867,University of Louisiana--Lafayette,37.1,United States,"Lafayette, LA"
+871,867,University of Nairobi,37.1,Kenya,Nairobi
+872,870,Iran University Science & Technology,37,Iran,Tehran
+873,870,University of Southern Queensland,37,Australia,"Toowoomba, Queensland"
+874,872,Universitat Kassel,36.9,Germany,Kassel
+875,872,University of Bucharest,36.9,Romania,Bucharest
+876,872,University of London Royal Veterinary College,36.9,United Kingdom,London
+877,875,Indian Institute of Technology (IIT) - Indore,36.8,India,Indore
+878,875,Marmara University,36.8,Turkey,Istanbul
+879,875,National University of Cordoba,36.8,Argentina,Córdoba
+880,875,University of Veterinary Medicine Vienna,36.8,Austria,Vienna
+881,879,European University Institute,36.7,Italy,Florence
+882,879,Inha University,36.7,South Korea,Incheon
+883,879,South China Agricultural University,36.7,China,"Guangzhou, Guangdong"
+884,879,Tokyo University of Science,36.7,Japan,Tokyo
+885,879,Universidad de Alcala,36.7,Spain,Madrid
+886,879,Universite de Tunis-El-Manar,36.7,Tunisia,"Tunis, Tunisia"
+887,885,Assiut University,36.6,Egypt,Assiut
+888,885,Kangwon National University,36.6,South Korea,Chuncheon-si
+889,885,Portland State University,36.6,United States,"Portland, OR"
+890,885,Southwest University - China,36.6,China,Chongqing
+891,889,Ferdowsi University Mashhad,36.5,Iran,"Mashhad, Razavi Khorasan"
+892,889,International Islamic University Malaysia,36.5,Malaysia,Selangor
+893,889,Tomsk Polytechnic University,36.5,Russia,Tomsk
+894,889,Universidade Federal da Bahia,36.5,Brazil,"Cruz Das Almas, Bahia"
+895,893,Chiang Mai University,36.4,Thailand,Chiang Mai
+896,893,Chung Ang University,36.4,South Korea,Seoul
+897,893,CUNY--Hunter College,36.4,United States,"New York, NY"
+898,893,North China Electric Power University,36.4,China,"Beijing, Beijing"
+899,893,Rhodes University,36.4,South Africa,Grahamstown
+900,898,Graduate University for Advanced Studies - Japan,36.3,Japan,"Hayama, Kanagawa Prefecture"
+901,898,Niigata University,36.3,Japan,Niigata
+902,898,Southern Cross University,36.3,Australia,"East Lismore, NSW"
+903,898,University of Kaiserslautern,36.3,Germany,Kaiserslautern
+904,902,Universidade Federal Fluminense,36.2,Brazil,"Niterói, Rio de Janerio"
+905,902,University of Paderborn,36.2,Germany,Paderborn
+906,904,Gyeongsang National University,36,South Korea,"Jinju City, South Gyeongsang"
+907,904,Hong Kong Institute of Education,36,Hong Kong,Tai Po
+908,904,Nanchang University,36,China,"Nanchang, Jiangxi"
+909,904,Ryerson University,36,Canada,"Toronto, Ontario"
+910,904,Sultan Qaboos University,36,Oman,Muscat
+911,904,University of Oklahoma Health Sciences Center,36,United States,"Oklahoma City, OK"
+912,904,University of South Bohemia Ceske Budejovice,36,Czech Republic,České Budějovice
+913,911,Fujian Agriculture,35.9,China,"Fuzhou, Fujian"
+914,911,National University of Defence Technology - China,35.9,China,"Changsha, Hunan"
+915,911,Uniformed Services University of the Health Sciences,35.9,United States,"Bethesda, MD"
+916,914,Chang Gung University,35.8,Taiwan,Taoyuan City
+917,914,Ege University,35.8,Turkey,İzmir
+918,914,Jinan University,35.8,China,"Guangzhou, Guangdong"
+919,914,Ritsumeikan University,35.8,Japan,Kyoto
+920,914,Universidade Federal do Rio Grande do Norte,35.8,Brazil,Natal/RN
+921,914,University of Castilla-La Mancha,35.8,Spain,Real
+922,920,University of Arkansas Medical Sciences,35.7,United States,"Little Rock, AR"
+923,921,Brno University of Technology,35.6,Czech Republic,Brno
+924,921,Southern Illinois University--Carbondale,35.6,United States,"Carbondale, IL"
+925,921,University of Ghana,35.6,Ghana,Legon
+926,924,University of Toledo,35.5,United States,"Toledo, OH"
+927,925,Shandong University of Science & Technology,35.4,China,"Qingdao, Shandong"
+928,926,Indian Institute of Technology (IIT) - Guwahati,35.3,India,"Guwahati, Assam"
+929,926,Wroclaw Medical University,35.3,Poland,Wrocław
+930,928,Guangzhou University,35.2,China,"Guangzhou, Guangdong"
+931,928,Nova Southeastern University,35.2,United States,"Ft. Lauderdale, FL"
+932,928,Suez Canal University,35.2,Egypt,"Ismailia, Egypt"
+933,931,Anglia Ruskin University,35,United Kingdom,Cambridge
+934,931,Manchester Metropolitan University,35,United Kingdom,Manchester
+935,931,Middlesex University,35,United Kingdom,London
+936,931,Nagasaki University,35,Japan,"Nagasaki, Nagasaki Prefecture"
+937,931,Northeast Normal University - China,35,China,"Changchun, Jilin"
+938,936,Central Queensland University,34.9,Australia,"Rockhampton North, Queensland"
+939,936,Jadavpur University,34.9,India,"Kolkata, West Bengal"
+940,938,Beijing Forestry University,34.8,China,Beijing
+941,938,Hofstra University,34.8,United States,"Hempstead, NY"
+942,938,University of New Brunswick,34.8,Canada,"Fredericton, NB"
+943,941,Bournemouth University,34.7,United Kingdom,"Poole, Dorset"
+944,941,Nanjing University of Posts & Telecommunications,34.7,China,"Nanjing, Jiangsu"
+945,941,Universita Ca Foscari Venezia,34.7,Italy,Venice
+946,944,Budapest University of Technology & Economics,34.6,Hungary,Budapest
+947,945,Kumamoto University,34.5,Japan,Kumamoto
+948,945,National Taiwan Normal University,34.5,Taiwan,Taipei City
+949,945,Qufu Normal University,34.5,China,"Qufu, Shandong"
+950,948,Abo Akademi University,34.4,Finland,Tuomiokirkontori 3
+951,948,Kanazawa University,34.4,Japan,"Kanazawa, Ishikawa"
+952,948,Universiti Teknologi MARA,34.4,Malaysia,Darul Ehsan
+953,951,Beni-Suef University,34.3,Egypt,"Beni Suef, Egypt"
+954,951,Capital Medical University,34.3,China,Beijing
+955,951,Christian Medical College & Hospital (CMCH) Vellore,34.3,India,Vellore
+956,951,Fourth Military Medical University,34.3,China,"Xi'an, Shaanxi"
+957,951,Hamburg University of Technology,34.3,Germany,Hamburg
+958,951,National University of Sciences & Technology - Pakistan,34.3,Pakistan,Islamabad
+959,951,Universite de Sfax,34.3,Tunisia,Sfax
+960,951,University of South Africa,34.3,South Africa,Pretoria
+961,959,Universitat de Lleida,34.2,Spain,Lleida
+962,959,Yokohama City University,34.2,Japan,"Yokohama, Kanagawa Prefecture"
+963,961,Hangzhou Normal University,34.1,China,"Hangzhou, Zhejiang"
+964,961,Wroclaw University of Technology,34.1,Poland,Wroclaw
+965,963,Athens Medical School,34,Greece,Athina
+966,963,China Pharmaceutical University,34,China,"Nanjing, Jiangsu"
+967,963,Federal University of Vicosa,34,Brazil,"Viçosa, Minas Gerais"
+968,963,Gazi University,34,Turkey,Ankara
+969,963,Universidad Austral de Chile,34,Chile,"Valdivia, Región de los Ríos"
+970,968,Ajou University,33.9,South Korea,"Suwon, Gyeonggi"
+971,968,Fordham University,33.9,United States,"New York, NY"
+972,970,Polytechnic Institute of Porto,33.8,Portugal,Porto
+973,970,University of the Free State,33.8,South Africa,Bloemfontein
+974,972,San Francisco State University,33.7,United States,"San Francisco, CA"
+975,972,Universidad de Valladolid,33.7,Spain,Valladolid
+976,972,University of Hertfordshire,33.7,United Kingdom,"Hatfield, Hertfordshire"
+977,972,Zhejiang Normal University,33.7,China,"Jinhua, Zhejiang"
+978,976,Adiyaman University,33.6,Turkey,Adiyaman merkez
+979,976,Oxford Brookes University,33.6,United Kingdom,Oxford
+980,976,Universidade do Algarve,33.6,Portugal,Faro
+981,976,University of the Sunshine Coast,33.6,Australia,Sippy Downs
+982,976,University of Yaounde I,33.6,Cameroon,Yaounde
+983,981,North Dakota State University,33.4,United States,"Fargo, ND"
+984,981,Qingdao University,33.4,China,"Qingdao, Shandong"
+985,983,Florida Atlantic University,33.3,United States,"Boca Raton, FL"
+986,984,Loma Linda University,33.2,United States,"Loma Linda, CA"
+987,984,Nicolaus Copernicus University,33.2,Poland,Toruń
+988,984,University of Central Lancashire,33.2,United Kingdom,"Preston, Lancashire"
+989,987,Jacobs University,33.1,Germany,Bremen
+990,987,Kafkas University,33.1,Turkey,Merkez
+991,987,Miami University--Oxford,33.1,United States,"Oxford, OH"
+992,987,Southern Medical University - China,33.1,China,"Guangzhou, Guangdong"
+993,987,University of Pavol Jozef Safarik Kosice,33.1,Slovakia,Kosice
+994,992,Chungnam National University,33,South Korea,Daejeon
+995,992,University of North Dakota,33,United States,"Grand Forks, ND"
+996,992,Xiangtan University,33,China,"Xiangtan, Hunan"
+997,995,Medical University Gdansk,32.9,Poland,Gdańsk
+998,995,University of Malawi,32.9,Malawi,Zomba
+999,995,University of Picardie-Jules-Verne,32.9,France,Amiens
