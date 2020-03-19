@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import OneHotEncoder # encode categorical predictors
 
 df = pd.read_csv('../data/gradcafe.csv')
 
@@ -205,11 +206,29 @@ df.loc[df.institution.str.contains(
 # merge stat_rank and overall_rank
 # add two new columns: USnew_stat_score and USnew_stat_score
 df1 = pd.read_csv('../data/USnew_stat_rank.csv')
+df1["postal"] = df1["district"].str.split(',', expand = True).iloc[:,1].str.strip()
 df2 = pd.read_csv('../data/USnew_overall_rank.csv')
-df = pd.merge(df, df1[['score', 'name']],
+df = pd.merge(df, df1[['score', 'name', 'postal']],
               left_on='institution', right_on='name')
 df = df.rename(columns={'score': 'USnew_stat_score'})
 df.name = df.name.str.replace(r' ?\([^)]+\)', '')
 df = pd.merge(df, df2[['score', 'name']], on='name')
 df = df.rename(columns={'score': 'USnew_overall_score'})
 df = df.drop(columns=['name', "Unnamed: 0"])
+
+def decision_tree_process(df):
+    df.loc[df.admission_status=='Wait listed', 'admission_status'] = 'Other'
+    df.loc[df.admission_status=='Interview', 'admission_status'] = 'Other'
+    df.loc[df.degree=='Other', 'degree'] = 'Masters'
+    df.loc[df.admission_via=='Postal Service', 'admission_via'] = 'Other'
+    df.loc[df.admission_via=='Phone', 'admission_via'] = 'Other'
+    df.loc[df.ST=='O', 'ST'] = 'I'
+    df = df.dropna()
+    X = df[['degree', 'admission_via', 'ST', 'Undergrad_GPA', 'GRE_V', 'GRE_Q', 'GRE_W', 'GRE_sub', 'USnew_stat_score', 'USnew_overall_score']]
+    y = df.admission_status
+    categorical_feature_mask = X.dtypes=='category'
+    ohe = OneHotEncoder(sparse=False)
+    X_ohe = ohe.fit_transform(X.loc[:, categorical_feature_mask])
+    X_ohe = pd.DataFrame(X_ohe, columns=ohe.get_feature_names(['degree', 'admission_via', 'ST']), index=X.index)
+    X = pd.concat([X_ohe, X.loc[:, ~categorical_feature_mask]], axis=1)
+    return X, y

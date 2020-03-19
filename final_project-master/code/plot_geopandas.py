@@ -15,12 +15,8 @@ import mapclassify as mp
 from clean import df
 
 map_us = gpd.read_file('../data/states_province/ne_110m_admin_1_states_provinces.shx')
-data_all = pd.read_csv("../data/USnew_overall_rank.csv")
-data_stat = pd.read_csv("../data/USnew_stat_rank.csv")
 
-#merge data
-data_stat["postal"] = data_stat["district"].str.split(',', expand = True).iloc[:,1].str.strip()
-df = pd.merge(df, data_stat, left_on = "institution", right_on = "name")
+# data munging
 summary_gradcafe = df[["postal", "admission_status"]].groupby("postal").apply(lambda df: np.sum(df["admission_status"] == "Accepted") / df["admission_status"].count()).reset_index()
 summary_gradcafe["admission_rate"] = df[["postal", "admission_status"]].groupby("postal").count().reset_index().iloc[:,1]
 summary_gradcafe["stat_score"] = df[["USnew_stat_score", "postal"]].groupby("postal").mean().reset_index().iloc[:,1]
