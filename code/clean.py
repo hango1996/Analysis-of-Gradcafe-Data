@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder # encode categorical predictors
+import geopandas as gpd
 
 df = pd.read_csv('../data/gradcafe.csv')
 
@@ -232,3 +233,33 @@ def decision_tree_process(df):
     X_ohe = pd.DataFrame(X_ohe, columns=ohe.get_feature_names(['degree', 'admission_via', 'ST']), index=X.index)
     X = pd.concat([X_ohe, X.loc[:, ~categorical_feature_mask]], axis=1)
     return X, y
+
+
+
+
+map_us = gpd.read_file('../data/states_province/ne_110m_admin_1_states_provinces.shx')
+# data munging
+summary_gradcafe = df[["postal", "admission_status"]].groupby("postal").apply(lambda df: np.sum(df["admission_status"] == "Accepted") / df["admission_status"].count()).reset_index()
+summary_gradcafe["admission_rate"] = df[["postal", "admission_status"]].groupby("postal").count().reset_index().iloc[:,1]
+summary_gradcafe["stat_score"] = df[["USnew_stat_score", "postal"]].groupby("postal").mean().reset_index().iloc[:,1]
+summary_gradcafe["overall_score"] = df[["USnew_overall_score", "postal"]].groupby("postal").mean().reset_index().iloc[:,1]
+summary_gradcafe["sum_stat_score"] = df[["USnew_stat_score", "postal"]].groupby("postal").sum().reset_index().iloc[:,1]
+summary_gradcafe = summary_gradcafe.rename(columns = {0 : "admission_rate", "admission_rate": "num_applicants"})
+
+map_us = map_us.merge(summary_gradcafe, on = "postal", how = 'left')
+map_us.loc[map_us["num_applicants"].isna(), "num_applicants"]=0
+map_us_point = map_us.copy()
+map_us_point["rep"] = map_us["geometry"].centroid
+map_us_point.set_geometry("rep", inplace = True)
+
+#make copy to set labels
+map_us["stat_score2"] = map_us["stat_score"]
+map_us["admission_rate2"] = map_us["admission_rate"]
+map_us["overall_score2"] = map_us["overall_score"]
+map_us["sum_stat_score2"] = map_us["sum_stat_score"]
+map_us["num_applicants2"] = map_us["num_applicants"]
+map_us.loc[map_us["sum_stat_score2"].isna(), "sum_stat_score2"] = 'NaN'
+map_us.loc[map_us["overall_score2"].isna(), "overall_score2"] = 'NaN'
+map_us.loc[map_us["admission_rate2"].isna(), "admission_rate2"] = 'NaN'
+map_us.loc[map_us["stat_score2"].isna(), "stat_score2"] = 'NaN'
+map_us.loc[map_us["num_applicants2"].isna(), "num_applicants2"] = "NaN"

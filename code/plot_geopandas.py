@@ -12,43 +12,14 @@ from bokeh.palettes import brewer
 from bokeh.layouts import widgetbox, row, column
 from bokeh.models.glyphs import Text
 import mapclassify as mp
-from clean import df
-
-map_us = gpd.read_file('../data/states_province/ne_110m_admin_1_states_provinces.shx')
-
-# data munging
-summary_gradcafe = df[["postal", "admission_status"]].groupby("postal").apply(lambda df: np.sum(df["admission_status"] == "Accepted") / df["admission_status"].count()).reset_index()
-summary_gradcafe["admission_rate"] = df[["postal", "admission_status"]].groupby("postal").count().reset_index().iloc[:,1]
-summary_gradcafe["stat_score"] = df[["USnew_stat_score", "postal"]].groupby("postal").mean().reset_index().iloc[:,1]
-summary_gradcafe["overall_score"] = df[["USnew_overall_score", "postal"]].groupby("postal").mean().reset_index().iloc[:,1]
-summary_gradcafe["sum_stat_score"] = df[["USnew_stat_score", "postal"]].groupby("postal").sum().reset_index().iloc[:,1]
-summary_gradcafe = summary_gradcafe.rename(columns = {0 : "admission_rate", "admission_rate": "num_applicants"})
-
-map_us = map_us.merge(summary_gradcafe, on = "postal", how = 'left')
-map_us.loc[map_us["num_applicants"].isna(), "num_applicants"]=0
-map_us_point = map_us.copy()
-map_us_point["rep"] = map_us["geometry"].centroid
-map_us_point.set_geometry("rep", inplace = True)
-
-#make copy to set labels
-map_us["stat_score2"] = map_us["stat_score"]
-map_us["admission_rate2"] = map_us["admission_rate"]
-map_us["overall_score2"] = map_us["overall_score"]
-map_us["sum_stat_score2"] = map_us["sum_stat_score"]
-map_us["num_applicants2"] = map_us["num_applicants"]
-map_us.loc[map_us["sum_stat_score2"].isna(), "sum_stat_score2"] = 'NaN'
-map_us.loc[map_us["overall_score2"].isna(), "overall_score2"] = 'NaN'
-map_us.loc[map_us["admission_rate2"].isna(), "admission_rate2"] = 'NaN'
-map_us.loc[map_us["stat_score2"].isna(), "stat_score2"] = 'NaN'
-map_us.loc[map_us["num_applicants2"].isna(), "num_applicants2"] = "NaN"
-
+from clean import df, map_us, map_us_point
 
 
 
 
 def geo_figure1(feature = 'stat_score'):
     '''
-        Draw the geometry plot of
+    Draw the geometry plot of statistics score among states
     '''
     #Read data to json
     merged_json = json.loads(map_us[~map_us['name'].isin(['Alaska', 'Hawaii'])].to_json())
@@ -92,6 +63,9 @@ def geo_figure1(feature = 'stat_score'):
 
 
 def geo_figure2(feature = "admission_rate"):
+    """
+    draw the geometry plot of admission rate among states
+    """
     fig, ax = plt.subplots(1, figsize=(20, 15))
     plt.title("Admission Rate Distribution in United States", size = 25,fontweight="bold")
     divider = make_axes_locatable(ax)
@@ -123,6 +97,9 @@ def geo_figure2(feature = "admission_rate"):
     leg.set_bbox_to_anchor((0., 0., 0.97, 0.3))
 
 def geo_figure3(feature = "num_applicants"):
+    """
+    Draw the geometry plot of number of applicants among states.
+    """
     #Read data to json
     merged_json = json.loads(map_us[~map_us['name'].isin(['Alaska', 'Hawaii'])].to_json())
 
