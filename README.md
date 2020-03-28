@@ -99,7 +99,7 @@ H-index citation: score in h-index citations
 
 [plot_functions.py](code/plot_functions.py): contain functions for generating plots in jupyter notebooks
 
-[plot_geopandas.py](code/plot_geopandas.py): functions to generate national maps
+[plot_geopandas.py](code/plot_geopandas.py): functions to generate interactive chropleth map
 
 [qs_ranking_scraper.py](code/qs_ranking_scraper.py): scraper of QS ranking in Statistics
 
